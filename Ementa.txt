@@ -1,0 +1,3 @@
+Semana 1:
+1.1 Lógica de programação
+1.2 Sistemas computacionais

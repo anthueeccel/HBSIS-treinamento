@@ -1,2 +1,3 @@
 ﻿Teste 1 commit
  Teste 2
+Teste 3

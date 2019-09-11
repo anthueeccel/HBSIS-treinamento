@@ -1,2 +1,2 @@
 ﻿Teste 1 commit
-Teste 2: troca local arquivo
+Teste 2: troca local arquivo ....

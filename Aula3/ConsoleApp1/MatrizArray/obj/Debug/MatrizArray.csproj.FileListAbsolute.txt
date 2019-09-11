@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\bin\Debug\MatrizArray.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\bin\Debug\MatrizArray.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\bin\Debug\MatrizArray.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\obj\Debug\MatrizArray.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\obj\Debug\MatrizArray.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\MatrizArray\obj\Debug\MatrizArray.pdb

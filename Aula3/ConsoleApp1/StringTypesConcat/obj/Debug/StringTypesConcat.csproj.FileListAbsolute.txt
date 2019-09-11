@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\bin\Debug\StringTypesConcat.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\bin\Debug\StringTypesConcat.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\bin\Debug\StringTypesConcat.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\obj\Debug\StringTypesConcat.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\obj\Debug\StringTypesConcat.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\obj\Debug\StringTypesConcat.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\StringTypesConcat\obj\Debug\StringTypesConcat.pdb

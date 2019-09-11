@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\bin\Debug\Replace.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\bin\Debug\Replace.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\bin\Debug\Replace.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\obj\Debug\Replace.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\obj\Debug\Replace.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula3\ConsoleApp1\Replace\obj\Debug\Replace.pdb

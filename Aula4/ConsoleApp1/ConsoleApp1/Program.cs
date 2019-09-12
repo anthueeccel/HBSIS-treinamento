@@ -1,8 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+/// <summary>
+/// Aula 4, Métodos de Repetição: while, for, foreach, LINQ
+/// Created by: Anthue Eccel
+/// Date: 2019-09-12
+/// </summary>
+
 
 namespace ConsoleApp1
 {
@@ -10,6 +13,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testando meu exe");
+            Console.ReadKey();
         }
     }
 }

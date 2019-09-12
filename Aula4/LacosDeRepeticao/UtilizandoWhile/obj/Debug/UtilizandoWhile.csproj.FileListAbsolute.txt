@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\bin\Debug\UtilizandoWhile.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\bin\Debug\UtilizandoWhile.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\bin\Debug\UtilizandoWhile.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\obj\Debug\UtilizandoWhile.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\obj\Debug\UtilizandoWhile.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\obj\Debug\UtilizandoWhile.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula4\LacosDeRepeticao\UtilizandoWhile\obj\Debug\UtilizandoWhile.csprojAssemblyReference.cache

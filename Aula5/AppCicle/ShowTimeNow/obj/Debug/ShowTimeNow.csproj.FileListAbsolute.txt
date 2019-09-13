@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\bin\Debug\ShowTimeNow.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\bin\Debug\ShowTimeNow.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\bin\Debug\ShowTimeNow.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\obj\Debug\ShowTimeNow.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\obj\Debug\ShowTimeNow.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\obj\Debug\ShowTimeNow.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\ShowTimeNow\obj\Debug\ShowTimeNow.pdb

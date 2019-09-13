@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\bin\Debug\CicloWhile.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\bin\Debug\CicloWhile.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\bin\Debug\CicloWhile.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\obj\Debug\CicloWhile.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\obj\Debug\CicloWhile.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\obj\Debug\CicloWhile.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\AppCicle\CicloWhile\obj\Debug\CicloWhile.pdb

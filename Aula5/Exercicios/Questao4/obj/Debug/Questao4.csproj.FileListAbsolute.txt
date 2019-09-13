@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\bin\Debug\Questao4.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\bin\Debug\Questao4.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\bin\Debug\Questao4.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\obj\Debug\Questao4.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\obj\Debug\Questao4.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\obj\Debug\Questao4.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula5\Exercicios\Questao4\obj\Debug\Questao4.csprojAssemblyReference.cache

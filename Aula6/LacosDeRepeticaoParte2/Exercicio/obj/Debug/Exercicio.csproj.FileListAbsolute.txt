@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\bin\Debug\Exercicio.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\bin\Debug\Exercicio.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\bin\Debug\Exercicio.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\obj\Debug\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\obj\Debug\Exercicio.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\obj\Debug\Exercicio.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\Exercicio\obj\Debug\Exercicio.csprojAssemblyReference.cache

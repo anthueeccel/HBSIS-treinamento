@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\bin\Debug\ForeachComSplit.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\bin\Debug\ForeachComSplit.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\bin\Debug\ForeachComSplit.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\obj\Debug\ForeachComSplit.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\obj\Debug\ForeachComSplit.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\obj\Debug\ForeachComSplit.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula6\LacosDeRepeticaoParte2\ForeachComSplit\obj\Debug\ForeachComSplit.pdb

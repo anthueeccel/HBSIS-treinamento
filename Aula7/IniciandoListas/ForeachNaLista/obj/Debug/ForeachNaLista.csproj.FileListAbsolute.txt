@@ -1,0 +1,10 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\obj\Debug\ForeachNaLista.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\bin\Debug\ForeachNaLista.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\bin\Debug\ForeachNaLista.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\bin\Debug\ForeachNaLista.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\obj\Debug\ForeachNaLista.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\obj\Debug\ForeachNaLista.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\obj\Debug\ForeachNaLista.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\bin\Debug\Newtonsoft.Json.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\bin\Debug\Newtonsoft.Json.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ForeachNaLista\obj\Debug\ForeachNaLista.csproj.CopyComplete

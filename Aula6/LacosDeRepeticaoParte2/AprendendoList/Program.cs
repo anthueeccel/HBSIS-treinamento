@@ -22,7 +22,7 @@ namespace AprendendoList
             AdicionarItensALista();
             
             var tamanhoListaAtual = minhaListaPulgmatica.Count();
-            Console.WriteLine("\n\nÚltimos nomes adicionados:");
+            Console.WriteLine("\n\nRecentmente adicionados:");
             for (int i = tamanhoListaInicial; i < tamanhoListaAtual; i++)
             {
                 Console.WriteLine(minhaListaPulgmatica.ElementAt(i));

@@ -1,0 +1,13 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\MetodosPublicos.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\MetodosPublicos.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\MetodosPublicos.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\obj\Debug\MetodosPublicos.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\obj\Debug\MetodosPublicos.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\obj\Debug\MetodosPublicos.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\obj\Debug\MetodosPublicos.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\ForeachNaLista.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\ForeachNaLista.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\ForeachNaLista.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\obj\Debug\MetodosPublicos.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\MetodosPublicos\bin\Debug\Newtonsoft.Json.xml

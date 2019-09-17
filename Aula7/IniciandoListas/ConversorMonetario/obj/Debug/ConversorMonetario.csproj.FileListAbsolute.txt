@@ -1,0 +1,16 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ConversorMonetario.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ConversorMonetario.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ConversorMonetario.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\MetodosPublicos.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ForeachNaLista.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\MetodosPublicos.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\MetodosPublicos.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ForeachNaLista.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\ForeachNaLista.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\obj\Debug\ConversorMonetario.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\obj\Debug\ConversorMonetario.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\obj\Debug\ConversorMonetario.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\obj\Debug\ConversorMonetario.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\obj\Debug\ConversorMonetario.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\Newtonsoft.Json.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\IniciandoListas\ConversorMonetario\bin\Debug\Newtonsoft.Json.xml

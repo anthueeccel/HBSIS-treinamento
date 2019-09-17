@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\bin\Debug\TreeApp.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\bin\Debug\TreeApp.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\bin\Debug\TreeApp.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\obj\Debug\TreeApp.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\obj\Debug\TreeApp.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\TreeApp\obj\Debug\TreeApp.pdb

@@ -1,0 +1,9 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\obj\Debug\AcessandoDllDoAmiguinho.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\bin\Debug\AcessandoDllDoAmiguinho.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\bin\Debug\AcessandoDllDoAmiguinho.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\bin\Debug\AcessandoDllDoAmiguinho.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\obj\Debug\AcessandoDllDoAmiguinho.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\obj\Debug\AcessandoDllDoAmiguinho.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\obj\Debug\AcessandoDllDoAmiguinho.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\obj\Debug\AcessandoDllDoAmiguinho.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\AcessandoDllDoAmiguinho\bin\Debug\MinhaBiblicoteca.dll

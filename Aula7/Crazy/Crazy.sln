@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoQuadrado", "CalculoQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaBiblioteca", "MinhaBiblioteca\MinhaBiblioteca.csproj", "{57B16E09-4584-45A0-AECD-6FEA9EAA4B60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessandoDllDoAmiguinho", "AcessandoDllDoAmiguinho\AcessandoDllDoAmiguinho.csproj", "{DA1A1421-CD97-457B-8899-740824F741FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{57B16E09-4584-45A0-AECD-6FEA9EAA4B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B16E09-4584-45A0-AECD-6FEA9EAA4B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B16E09-4584-45A0-AECD-6FEA9EAA4B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1A1421-CD97-457B-8899-740824F741FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1A1421-CD97-457B-8899-740824F741FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1A1421-CD97-457B-8899-740824F741FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1A1421-CD97-457B-8899-740824F741FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

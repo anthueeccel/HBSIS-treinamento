@@ -3,4 +3,3 @@ C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\MinhaBiblioteca\bin\
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\MinhaBiblioteca\obj\Debug\MinhaBiblioteca.csproj.CoreCompileInputs.cache
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\MinhaBiblioteca\obj\Debug\MinhaBiblioteca.dll
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\MinhaBiblioteca\obj\Debug\MinhaBiblioteca.pdb
-C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\MinhaBiblioteca\obj\Debug\MinhaBiblioteca.csprojAssemblyReference.cache

@@ -14,8 +14,12 @@ namespace ListBeerBrand
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Método que lista 5 marcas de cerveja da Cervejaria Ambev
+        /// </summary>
         public static void ListBeer()
         {
+            Console.Clear();
             List<string> listaCerveja = new List<string>();
 
             listaCerveja.Add("Antartica");
@@ -24,8 +28,9 @@ namespace ListBeerBrand
             listaCerveja.Add("Bohemia");
             listaCerveja.Add("Patagônia");
 
+            Console.WriteLine("Lista de cervejas: ");
             listaCerveja.ForEach(x => Console.WriteLine(x));
-            
+            Console.WriteLine("Cervejaria Ambev(R)");
         }
     }
 }

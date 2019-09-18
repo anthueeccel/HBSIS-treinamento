@@ -49,5 +49,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoQuadrado\CalculoQuadrado.csproj">
+      <Project>{92e6a0d4-4920-4660-b158-5aeff974ca34}</Project>
+      <Name>CalculoQuadrado</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListBeerBrand\ListBeerBrand.csproj">
+      <Project>{3e3a91a6-564d-4851-8b56-1fe39359ff9c}</Project>
+      <Name>ListBeerBrand</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListCars\ListCars.csproj">
+      <Project>{b2116eb5-8774-49a0-9f2d-b3db7c461ea3}</Project>
+      <Name>ListCars</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinhaBiblioteca\MinhaBiblioteca.csproj">
+      <Project>{57b16e09-4584-45a0-aecd-6fea9eaa4b60}</Project>
+      <Name>MinhaBiblioteca</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeApp\TreeApp.csproj">
+      <Project>{dfdfea57-ee83-44ad-97e2-ecd36f71b1a5}</Project>
+      <Name>TreeApp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

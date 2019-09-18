@@ -6,12 +6,21 @@ using System.Threading.Tasks;
 
 namespace CalculoQuadrado
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o lado A");
 
+        }
+        /// <summary>
+        /// Método que calcula a área de um quadrado.
+        /// </summary>
+        public static void CalculoAreaQuadrado()
+        {
+            Console.Clear();
+            Console.WriteLine("Cálculo da área de um quadrado.");
+            Console.Write("Digite o lado: ");
+            Console.WriteLine($"A área é: {int.Parse(Console.ReadLine())*2}");            
         }
     }
 }

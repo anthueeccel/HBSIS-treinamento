@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\bin\Debug\CalculoQuadrado.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\bin\Debug\CalculoQuadrado.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\bin\Debug\CalculoQuadrado.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\obj\Debug\CalculoQuadrado.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\obj\Debug\CalculoQuadrado.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\obj\Debug\CalculoQuadrado.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\CalculoQuadrado\obj\Debug\CalculoQuadrado.csprojAssemblyReference.cache

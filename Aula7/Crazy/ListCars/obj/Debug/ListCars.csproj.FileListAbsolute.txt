@@ -1,7 +1,7 @@
-C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\obj\Debug\ListCars.csprojAssemblyReference.cache
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\obj\Debug\ListCars.csproj.CoreCompileInputs.cache
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\bin\Debug\ListCars.exe.config
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\bin\Debug\ListCars.exe
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\bin\Debug\ListCars.pdb
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\obj\Debug\ListCars.exe
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\obj\Debug\ListCars.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListCars\obj\Debug\ListCars.csprojAssemblyReference.cache

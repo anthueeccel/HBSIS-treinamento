@@ -4,4 +4,3 @@ C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListBeerBrand\bin\De
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListBeerBrand\obj\Debug\ListBeerBrand.csproj.CoreCompileInputs.cache
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListBeerBrand\obj\Debug\ListBeerBrand.exe
 C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListBeerBrand\obj\Debug\ListBeerBrand.pdb
-C:\Users\900066\source\repos\anthueeccel\proway\Aula7\Crazy\ListBeerBrand\obj\Debug\ListBeerBrand.csprojAssemblyReference.cache

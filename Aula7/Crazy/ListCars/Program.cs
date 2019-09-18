@@ -16,6 +16,7 @@ namespace ListCars
 
         public static void ListaCarros()
         {
+            Console.Clear();
             List<string> lista = new List<string>();
             lista.Add("BMW");
             lista.Add("Porsche");
@@ -23,6 +24,7 @@ namespace ListCars
             lista.Add("Fiat");
             lista.Add("Peugeot");
 
+            Console.WriteLine("Lista de marcas de Carros");
             lista.ForEach(x => Console.WriteLine(x));
         }
     }

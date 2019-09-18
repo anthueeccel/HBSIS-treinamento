@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\obj\Debug\MinhaSegundaClass.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\obj\Debug\MinhaSegundaClass.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\bin\Debug\MinhaSegundaClass.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\bin\Debug\MinhaSegundaClass.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\bin\Debug\MinhaSegundaClass.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\obj\Debug\MinhaSegundaClass.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula8\MinhaPrimeiraClass\MinhaSegundaClass\obj\Debug\MinhaSegundaClass.pdb

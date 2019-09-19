@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\bin\Debug\SystemaCadastroCarro.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\bin\Debug\SystemaCadastroCarro.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\bin\Debug\SystemaCadastroCarro.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\obj\Debug\SystemaCadastroCarro.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\obj\Debug\SystemaCadastroCarro.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\obj\Debug\SystemaCadastroCarro.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroCarro\obj\Debug\SystemaCadastroCarro.csprojAssemblyReference.cache

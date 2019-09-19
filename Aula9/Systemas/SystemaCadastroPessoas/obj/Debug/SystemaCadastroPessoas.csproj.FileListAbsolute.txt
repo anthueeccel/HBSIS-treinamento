@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\bin\Debug\SystemaCadastroPessoas.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\bin\Debug\SystemaCadastroPessoas.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\bin\Debug\SystemaCadastroPessoas.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\obj\Debug\SystemaCadastroPessoas.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\obj\Debug\SystemaCadastroPessoas.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\obj\Debug\SystemaCadastroPessoas.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula9\Systemas\SystemaCadastroPessoas\obj\Debug\SystemaCadastroPessoas.pdb

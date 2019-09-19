@@ -1,0 +1,7 @@
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\bin\Debug\Systemas.exe.config
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\bin\Debug\Systemas.exe
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\bin\Debug\Systemas.pdb
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\obj\Debug\SystemaAmigos.csprojAssemblyReference.cache
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\obj\Debug\SystemaAmigos.csproj.CoreCompileInputs.cache
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\obj\Debug\Systemas.exe
+C:\Users\900066\Source\Repos\anthueeccel\proway\Aula9\Systemas\Systemas\obj\Debug\Systemas.pdb

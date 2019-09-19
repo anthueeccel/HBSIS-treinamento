@@ -139,7 +139,10 @@ namespace SystemaCadastroPessoas
             return false;
         }
         
-
+        /// <summary>
+        /// Método para popular um lista
+        /// </summary>
+        /// <returns></returns>
         public static List<Pessoa> populaListaPessoa()
         {
             List<Pessoa> pessoas = new List<Pessoa>();

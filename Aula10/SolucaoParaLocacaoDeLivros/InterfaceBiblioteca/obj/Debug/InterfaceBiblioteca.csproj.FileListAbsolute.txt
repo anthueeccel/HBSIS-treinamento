@@ -1,0 +1,10 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\bin\Debug\InterfaceBiblioteca.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\bin\Debug\InterfaceBiblioteca.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\bin\Debug\InterfaceBiblioteca.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\bin\Debug\LocacaoBiblioteca.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\bin\Debug\LocacaoBiblioteca.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\obj\Debug\InterfaceBiblioteca.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\obj\Debug\InterfaceBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\obj\Debug\InterfaceBiblioteca.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\obj\Debug\InterfaceBiblioteca.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula10\SolucaoParaLocacaoDeLivros\InterfaceBiblioteca\obj\Debug\InterfaceBiblioteca.pdb

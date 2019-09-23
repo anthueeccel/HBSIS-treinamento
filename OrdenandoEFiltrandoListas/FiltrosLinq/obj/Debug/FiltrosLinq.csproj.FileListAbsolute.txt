@@ -1,0 +1,7 @@
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\bin\Debug\FiltrosLinq.exe.config
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\bin\Debug\FiltrosLinq.exe
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\bin\Debug\FiltrosLinq.pdb
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\obj\Debug\FiltrosLinq.csprojAssemblyReference.cache
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\obj\Debug\FiltrosLinq.csproj.CoreCompileInputs.cache
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\obj\Debug\FiltrosLinq.exe
+C:\Users\900066\Source\Repos\anthueeccel\proway\OrdenandoEFiltrandoListas\FiltrosLinq\obj\Debug\FiltrosLinq.pdb

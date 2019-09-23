@@ -9,51 +9,20 @@ namespace LocacaoBiblioteca.Controller
 {
     public class LivroController
     {
+        private int idContador = 0;
+
+        //public List<Livro> listaLivros = new List<Livro>(); //substituído pela propriedade acima.
+        private List<Livro> ListaDeLivros { get; set; }
+
         /// <summary>
         /// Construtor da Classe Livro
         /// </summary>
         public LivroController()
         {
-            ListaDeLivros = new List<Livro>();
-
-            //Popula a lista de livros
-            ListaDeLivros.Add(
-           new Livro()
-           {
-               Id = 001,
-               Nome = "Use a Cabeça C#",
-               Ativo = true
-           });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = 002,
-                Nome = "Use a Cabeça SQL",
-                Ativo = true
-            });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = 003,
-                Nome = "Guia do Mochileiro das Galáxias",
-                Ativo = true
-            });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = 004,
-                Nome = "Aprendendo Lógica de Programação",
-                Ativo = true
-            });
-
-
+           
         }
 
-        
-        public List<Livro> ListaDeLivros { get; set; }
-        
 
-        //public List<Livro> listaLivros = new List<Livro>();
         /// <summary>
         /// Método que lista os livros cadastrados no sistema
         /// </summary>
@@ -62,10 +31,52 @@ namespace LocacaoBiblioteca.Controller
         {
             return ListaDeLivros;
         }
-
-        public void AdicionaLivro()
+        /// <summary>
+        /// Método que aicina em nossa lista já instanciada - no contrutor.
+        /// </summary>
+        /// <param name="livro">informações do livro que vamos adicionar</param>
+        public void AdicionaLivro(Livro livro)
         {
-            throw new NotImplementedException();
+            livro.Id = ++idContador;
+            ListaDeLivros.Add(livro);
+        }
+
+        /// <summary>
+        /// Popula a lista de livros no sistema
+        /// </summary>
+       public void PopulaListaLivros()
+        {
+            //Popula a lista de livros
+            ListaDeLivros = new List<Livro>();
+
+            ListaDeLivros.Add(
+           new Livro()
+           {
+               Id = ++idContador,
+               Nome = "Use a Cabeça C#",
+               Ativo = true
+           });
+            ListaDeLivros.Add(
+            new Livro()
+            {
+                Id = ++idContador,
+                Nome = "Use a Cabeça SQL",
+                Ativo = true
+            });
+            ListaDeLivros.Add(
+            new Livro()
+            {
+                Id = ++idContador,
+                Nome = "Guia do Mochileiro das Galáxias",
+                Ativo = true
+            });
+            ListaDeLivros.Add(
+            new Livro()
+            {
+                Id = ++idContador,
+                Nome = "Aprendendo Lógica de Programação",
+                Ativo = true
+            });
         }
     }
 }

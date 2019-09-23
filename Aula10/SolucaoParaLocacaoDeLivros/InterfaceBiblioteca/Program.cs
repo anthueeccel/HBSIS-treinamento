@@ -13,14 +13,13 @@ namespace InterfaceBiblioteca
     {
         static LivroController livrosController = new LivroController();
         static UsuarioController usuariosController = new UsuarioController();
-        
+        static Usuario usuario = new Usuario();
+
         static void Main(string[] args)
         {
-            usuariosController.PopulaListaUsuario();
-
-            Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 1.0");
-
-            TelaDeLogin();
+            livrosController.PopulaListaLivros();
+            usuariosController.PopulaListaUsuarios();
+            //TelaDeLogin();
 
             MostraMenuSistema();
 
@@ -39,16 +38,17 @@ namespace InterfaceBiblioteca
                 Console.WriteLine("Menu sistema");
                 Console.WriteLine("1 - Listar usuários");
                 Console.WriteLine("2 - Cadastra Usuario");
-                Console.WriteLine("3 - Livros");
-                Console.WriteLine("4 - Cadastra Livro");
-                Console.WriteLine("5 - Trocar Usuário");
+                Console.WriteLine("3 - Excluir Usuario");
+                Console.WriteLine("4 - Listar livros");
+                Console.WriteLine("5 - Cadastra Livro");
+                Console.WriteLine("9 - Trocar Usuário");
                 Console.WriteLine("0 - Sair");
 
                 opcao = int.Parse(Console.ReadKey(true).KeyChar.ToString());
                 switch (opcao)
                 {
                     case 1:
-                        ListaUsuario();
+                        ListaUsuario(usuario);
                         Console.ReadKey();
                         break;
                     case 2:
@@ -56,16 +56,20 @@ namespace InterfaceBiblioteca
                         Console.ReadKey();
                         break;
                     case 3:
-                        ListaLivro();
+                        ExcluiUsuarioPorId();
                         Console.ReadKey();
                         break;
                     case 4:
-                        CadastraLivro();
+                        ListaLivro();
                         Console.ReadKey();
                         break;
                     case 5:
+                        CadastraLivro();
+                        Console.ReadKey();
+                        break;
+                    case 9:
                         Console.Clear();
-                        TelaDeLogin();                        
+                        TelaDeLogin();
                         break;
                     default:
                         break;
@@ -74,28 +78,73 @@ namespace InterfaceBiblioteca
         }
 
         /// <summary>
+        /// Método para exluir usuário através do seu Id
+        /// </summary>
+        private static void ExcluiUsuarioPorId()
+        {
+            ListaUsuario(usuario);
+            Console.WriteLine("Informe o ID: ");
+            int id = int.Parse(Console.ReadLine());
+            usuariosController.ListaUsuarios(usuario);
+            Console.Write("Confirma desativar este usuário? (S/N)");
+            var confirmaExclusao = Console.ReadKey().KeyChar.ToString().ToLower();
+            if (confirmaExclusao == "s")
+                usuariosController.RemoverUsuarioPorId(id);
+        }
+
+        /// <summary>
         /// Método que cadastra um livro no sistema
         /// </summary>
         private static void CadastraLivro()
         {
-            livrosController.AdicionaLivro();
+            Console.WriteLine("Cadastrar livro no sistema");
+            Console.Write("Informe  o nome do livro: ");
+            var nome = Console.ReadLine();
+
+            livrosController.AdicionaLivro(new Livro()
+            {
+                Nome = nome,
+                Ativo = true
+
+            });
+            Console.WriteLine("Livro cadastrado com sucesso!");
         }
 
         /// <summary>
         /// Método que lista os usuários cadastrados no sistema
         /// </summary>
-        private static void ListaUsuario()
+        private static void ListaUsuario(Usuario usuario)
         {
-            Console.WriteLine("Lista de livros disponíveis:");
-            usuariosController.ListaUsuarios().ForEach(x => Console.WriteLine($"ID: {x.Id} NOME: {x.Login} SENHA: ****** ATIVO: {x.Ativo.ToString()}"));
+           var listaDeUsuarios = usuariosController.ListaUsuarios(usuario);
+            Console.WriteLine("Lista de usuários:");
+            listaDeUsuarios.ForEach(s => Console.WriteLine($"ID: {s.Id} NOME: {s.Login} SENHA: ****** ATIVO: {s.Ativo.ToString()}"));
+
         }
+
 
         /// <summary>
         /// Método que cadastra usuário no sistema
         /// </summary>
         private static void CadastraUsuario()
         {
-            usuariosController.AdicionaUsuario();
+            Usuario usuario = new Usuario();
+
+            Console.Write("Informe o Login: ");
+            usuario.Login = Console.ReadLine();
+            Console.Write("Informe a Senha: ");
+            usuario.Senha = Console.ReadLine();
+
+            new Usuario()
+            {
+                Login = usuario.Login,
+                Senha = usuario.Senha,
+                Ativo = true
+            };
+
+            //Console.WriteLine($"Usuário {ListaDeUsuarios[ListaDeUsuarios.Count - 1].Login} adicionado com sucesso. ID: {ListaDeUsuarios[ListaDeUsuarios.Count - 1].Id} ");
+            usuariosController.AdicionaUsuario(usuario);
+            Console.WriteLine("Usuário cadastrado com sucesso! (Press any key...)");
+
         }
 
         /// <summary>
@@ -105,7 +154,7 @@ namespace InterfaceBiblioteca
         {
             var list = livrosController.ListarLivros();
             Console.WriteLine("Lista de livros disponíveis:");
-            list.ForEach(x => Console.WriteLine($"ID: {x.Id} NOME: {x.Nome} ATIVO: {x.Ativo.ToString()}"));
+            list.ForEach(x => Console.WriteLine($"ID: {x.Id}| ATIVO: {x.Ativo.ToString()}| NOME: {x.Nome}"));
         }
 
         /// <summary>

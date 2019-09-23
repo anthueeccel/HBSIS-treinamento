@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\bin\Debug\CestaDeFrutas.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\bin\Debug\CestaDeFrutas.exe
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\bin\Debug\CestaDeFrutas.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\obj\Debug\CestaDeFrutas.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\obj\Debug\CestaDeFrutas.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\obj\Debug\CestaDeFrutas.exe
+C:\Users\900066\source\repos\anthueeccel\proway\OrdenandoEFiltrandoListas\CestaDeFrutas\obj\Debug\CestaDeFrutas.pdb

@@ -12,19 +12,20 @@ namespace LocacaoBiblioteca.Controller
     /// </summary>
     public class UsuarioController
     {
-     
+        //Criado privado para impedir o programador de adicionar um ID ou alterar fora da classe
+        private int idContador = 0;
+
         /// <summary>
         /// Contrutor da Classe Usuario
         /// </summary>
         public UsuarioController()
-        {
+        {           
 
-          
         }
 
         // Declaração da lista
-        public List<Usuario> ListaDeUsuarios { get; set; }
-        
+        private List<Usuario> ListaDeUsuarios { get; set; }
+
 
 
         /// <summary>
@@ -51,56 +52,73 @@ namespace LocacaoBiblioteca.Controller
         /// Método que retorna a lista de usuários
         /// </summary>
         /// <returns></returns>
-        public List<Usuario> ListaUsuarios()
+        public List<Usuario> ListaUsuarios(Usuario usuario)
         {
-            return ListaDeUsuarios;
-        }
-        
-        public void AdicionaUsuario()
-        {
-            Usuario usuario = new Usuario();
-
-            Console.Write("Informe o Login: ");
-            usuario.Login = Console.ReadLine();
-            Console.Write("Informe a Senha: ");
-            usuario.Senha = Console.ReadLine();
-
-            ListaDeUsuarios.Add(new Usuario()
+            if (usuario.Id.Equals(0))
             {
-                Id = ListaDeUsuarios.Count + 1,
-                Login = usuario.Login,
-                Senha = usuario.Senha,
-                Ativo = true
-            });
-            Console.WriteLine($"Usuário {ListaDeUsuarios[ListaDeUsuarios.Count - 1].Login} adicionado com sucesso. ID: {ListaDeUsuarios[ListaDeUsuarios.Count - 1].Id} ");
+                return ListaDeUsuarios.Where(x => x.Ativo == true).ToList<Usuario>();                
+            }
+            else
+            {
+                List<Usuario> ListaUsuarioUnico = new List<Usuario>();
+                ListaDeUsuarios.ForEach(x =>
+                {
+                    if (x.Id == usuario.Id)
+                        ListaUsuarioUnico.Add(usuario);
+                });
+                return ListaDeUsuarios = ListaUsuarioUnico;
+            }
         }
 
-        public void PopulaListaUsuario()
+        /// <summary>
+        /// Método que adiciona usuários a lista de usuários.
+        /// </summary>
+        /// <param name="usuario"></param>
+        public void AdicionaUsuario(Usuario usuario)
+        {
+            usuario.Id = idContador++;
+            ListaDeUsuarios.Add(usuario);
+        }
+
+        /// <summary>
+        /// Método para popular/adicionar uma lista de usuários pré-definida ao sistema
+        /// </summary>
+       
+
+        /// <summary>
+        /// Excluí usuário do sistema
+        /// </summary>
+        /// <param name="usuario"></param>
+        public void RemoverUsuarioPorId(int id)
+        {
+            ListaDeUsuarios.FirstOrDefault(x => x.Id == id).Ativo = false;                       
+        }
+
+        public void PopulaListaUsuarios()
         {
             ListaDeUsuarios = new List<Usuario>();
 
             ListaDeUsuarios.Add(new Usuario()
             {
-                Id = 001,
+                Id = ++idContador,
                 Login = "admin",
                 Senha = "admin",
                 Ativo = true
             });
             ListaDeUsuarios.Add(new Usuario()
             {
-                Id = 002,
+                Id = ++idContador,
                 Login = "anthue",
                 Senha = "1234",
                 Ativo = true
             });
             ListaDeUsuarios.Add(new Usuario()
             {
-                Id = 003,
+                Id = ++idContador,
                 Login = "usuario1",
                 Senha = "1234",
                 Ativo = true
             });
         }
-
     }
 }

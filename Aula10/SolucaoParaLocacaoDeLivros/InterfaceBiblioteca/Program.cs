@@ -14,12 +14,11 @@ namespace InterfaceBiblioteca
         static LivroController livrosController = new LivroController();
         static UsuarioController usuariosController = new UsuarioController();
         static Usuario usuario = new Usuario();
-
+        #region Método Main
         static void Main(string[] args)
         {
-            livrosController.PopulaListaLivros();
-            usuariosController.PopulaListaUsuarios();
-            //TelaDeLogin();
+           
+            TelaDeLogin();
 
             MostraMenuSistema();
 
@@ -41,6 +40,7 @@ namespace InterfaceBiblioteca
                 Console.WriteLine("3 - Excluir Usuario");
                 Console.WriteLine("4 - Listar livros");
                 Console.WriteLine("5 - Cadastra Livro");
+                Console.WriteLine("6 - Excluir Livro");
                 Console.WriteLine("9 - Trocar Usuário");
                 Console.WriteLine("0 - Sair");
 
@@ -59,12 +59,17 @@ namespace InterfaceBiblioteca
                         ExcluiUsuarioPorId();
                         Console.ReadKey();
                         break;
+
                     case 4:
                         ListaLivro();
                         Console.ReadKey();
                         break;
                     case 5:
                         CadastraLivro();
+                        Console.ReadKey();
+                        break;
+                      case 6:
+                        ExcluiLivroPorId();
                         Console.ReadKey();
                         break;
                     case 9:
@@ -76,6 +81,7 @@ namespace InterfaceBiblioteca
                 }
             }
         }
+        #endregion
 
         /// <summary>
         /// Método para exluir usuário através do seu Id
@@ -119,6 +125,20 @@ namespace InterfaceBiblioteca
             Console.WriteLine("Lista de usuários:");
             listaDeUsuarios.ForEach(s => Console.WriteLine($"ID: {s.Id} NOME: {s.Login} SENHA: ****** ATIVO: {s.Ativo.ToString()}"));
 
+        }
+        /// <summary>
+        /// Método que Exclui/Inativa um livro do sistema
+        /// </summary>
+        private static void ExcluiLivroPorId()
+        {
+            ListaLivro();
+            Console.WriteLine("Informe o ID: ");
+            int id = int.Parse(Console.ReadLine());
+            //livrosController.ListarLivros();
+            Console.Write("Confirma inativar este livro? (S/N)");
+            var confirmaExclusao = Console.ReadKey().KeyChar.ToString().ToLower();
+            if (confirmaExclusao == "s")
+                livrosController.RemoverLivroPorId(id);
         }
 
 
@@ -185,6 +205,17 @@ namespace InterfaceBiblioteca
         {
             while (!RealizaLoginSistema())
                 Console.WriteLine("Login ou senha inválidos");
+        }
+
+        private static void ImprimeListaUsuario(Usuario usuario)
+        {
+            string template = "Id: {0,3} | Login: {1,-10} | Ativo: {2,4}";
+            string textoFormatado = string.Format(template,
+                usuario.Id,
+                usuario.Login,
+                usuario.Ativo);
+            Console.WriteLine(textoFormatado);
+
         }
     }
 }

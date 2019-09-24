@@ -12,21 +12,15 @@ namespace LocacaoBiblioteca.Controller
     /// </summary>
     public class UsuarioController
     {
-        //Criado privado para impedir o programador de adicionar um ID ou alterar fora da classe
-        private int idContador = 0;
-
         /// <summary>
         /// Contrutor da Classe Usuario
         /// </summary>
         public UsuarioController()
-        {           
+        {
 
         }
 
-        // Declaração da lista
-        private List<Usuario> ListaDeUsuarios { get; set; }
-
-
+        private LocacaoContext contextDB = new LocacaoContext();
 
         /// <summary>
         /// Método que valida Login e Senha no sistema
@@ -38,7 +32,7 @@ namespace LocacaoBiblioteca.Controller
         /// <returns>Verdadeiro quando existir usuário com este login e senha</returns>
         public bool LoginSistema(Usuario usuarios)
         {
-            return ListaDeUsuarios.Exists(x => x.Login == usuarios.Login && x.Senha == usuarios.Senha);
+            return contextDB.ListaDeUsuarios.Exists(x => x.Login == usuarios.Login && x.Senha == usuarios.Senha);
 
             //for (int i = 0; i < list.Count; i++)
             //{                
@@ -48,6 +42,8 @@ namespace LocacaoBiblioteca.Controller
             //return false;
         }
 
+
+
         /// <summary>
         /// Método que retorna a lista de usuários
         /// </summary>
@@ -56,17 +52,17 @@ namespace LocacaoBiblioteca.Controller
         {
             if (usuario.Id.Equals(0))
             {
-                return ListaDeUsuarios.Where(x => x.Ativo == true).ToList<Usuario>();                
+                return contextDB.ListaDeUsuarios.Where(x => x.Ativo == true).ToList<Usuario>();
             }
             else
             {
                 List<Usuario> ListaUsuarioUnico = new List<Usuario>();
-                ListaDeUsuarios.ForEach(x =>
+                contextDB.ListaDeUsuarios.ForEach(x =>
                 {
                     if (x.Id == usuario.Id)
                         ListaUsuarioUnico.Add(usuario);
                 });
-                return ListaDeUsuarios = ListaUsuarioUnico;
+                return contextDB.ListaDeUsuarios = ListaUsuarioUnico;
             }
         }
 
@@ -76,14 +72,9 @@ namespace LocacaoBiblioteca.Controller
         /// <param name="usuario"></param>
         public void AdicionaUsuario(Usuario usuario)
         {
-            usuario.Id = idContador++;
-            ListaDeUsuarios.Add(usuario);
+            usuario.Id = contextDB.idContadorUsuario++;
+            contextDB.ListaDeUsuarios.Add(usuario);
         }
-
-        /// <summary>
-        /// Método para popular/adicionar uma lista de usuários pré-definida ao sistema
-        /// </summary>
-       
 
         /// <summary>
         /// Excluí usuário do sistema
@@ -91,34 +82,11 @@ namespace LocacaoBiblioteca.Controller
         /// <param name="usuario"></param>
         public void RemoverUsuarioPorId(int id)
         {
-            ListaDeUsuarios.FirstOrDefault(x => x.Id == id).Ativo = false;                       
+            var usuario = contextDB.ListaDeUsuarios.FirstOrDefault(x => x.Id == id);
+            if (usuario != null)
+                usuario.Ativo = false;
         }
 
-        public void PopulaListaUsuarios()
-        {
-            ListaDeUsuarios = new List<Usuario>();
 
-            ListaDeUsuarios.Add(new Usuario()
-            {
-                Id = ++idContador,
-                Login = "admin",
-                Senha = "admin",
-                Ativo = true
-            });
-            ListaDeUsuarios.Add(new Usuario()
-            {
-                Id = ++idContador,
-                Login = "anthue",
-                Senha = "1234",
-                Ativo = true
-            });
-            ListaDeUsuarios.Add(new Usuario()
-            {
-                Id = ++idContador,
-                Login = "usuario1",
-                Senha = "1234",
-                Ativo = true
-            });
-        }
     }
 }

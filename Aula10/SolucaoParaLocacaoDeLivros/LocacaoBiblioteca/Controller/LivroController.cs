@@ -7,19 +7,20 @@ using System.Threading.Tasks;
 
 namespace LocacaoBiblioteca.Controller
 {
+    /// <summary>
+    /// Classe que contem os métdos para manipulação dos dados 
+    /// </summary>
     public class LivroController
     {
-        private int idContador = 0;
-
-        //public List<Livro> listaLivros = new List<Livro>(); //substituído pela propriedade acima.
-        private List<Livro> ListaDeLivros { get; set; }
-
+        private LocacaoContext contextDB = new LocacaoContext();
+        
         /// <summary>
         /// Construtor da Classe Livro
         /// </summary>
+        ///<param name="lista">Lista de livros</param>
         public LivroController()
         {
-           
+
         }
 
 
@@ -29,7 +30,7 @@ namespace LocacaoBiblioteca.Controller
         /// <returns></returns>
         public List<Livro> ListarLivros()
         {
-            return ListaDeLivros;
+            return contextDB.ListaDeLivros.Where(c => c.Ativo == true).ToList();
         }
         /// <summary>
         /// Método que aicina em nossa lista já instanciada - no contrutor.
@@ -37,46 +38,64 @@ namespace LocacaoBiblioteca.Controller
         /// <param name="livro">informações do livro que vamos adicionar</param>
         public void AdicionaLivro(Livro livro)
         {
-            livro.Id = ++idContador;
-            ListaDeLivros.Add(livro);
+            livro.Id = contextDB.idContadorLivro++;
+            contextDB.ListaDeLivros.Add(livro);
         }
 
         /// <summary>
+        /// Método que remove/inativa o livro do sistema
+        /// </summary>
+        /// <param name="id">Id do livro</param>
+        public void RemoverLivroPorId(int id)
+        {
+            // FirstOrDefault retorna null caso não encontrar o livro.
+            var livro = contextDB.ListaDeLivros.FirstOrDefault(x => x.Id == id);
+            if (livro != null)
+                livro.Ativo = false;
+        }
+
+
+
+
+
+
+        // List carregada no Context
+        /// <summary>
         /// Popula a lista de livros no sistema
         /// </summary>
-       public void PopulaListaLivros()
-        {
-            //Popula a lista de livros
-            ListaDeLivros = new List<Livro>();
+        //public void PopulaListaLivros()
+        //{
+        //    //Popula a lista de livros
+        //    contextDB.ListaDeLivros = new List<Livro>();
 
-            ListaDeLivros.Add(
-           new Livro()
-           {
-               Id = ++idContador,
-               Nome = "Use a Cabeça C#",
-               Ativo = true
-           });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = ++idContador,
-                Nome = "Use a Cabeça SQL",
-                Ativo = true
-            });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = ++idContador,
-                Nome = "Guia do Mochileiro das Galáxias",
-                Ativo = true
-            });
-            ListaDeLivros.Add(
-            new Livro()
-            {
-                Id = ++idContador,
-                Nome = "Aprendendo Lógica de Programação",
-                Ativo = true
-            });
-        }
+        //    contextDB.ListaDeLivros.Add(
+        //   new Livro()
+        //   {
+        //       Id = contextDB.idContadorLivro++,
+        //       Nome = "Use a Cabeça C#",
+        //       Ativo = true
+        //   });
+        //    contextDB.ListaDeLivros.Add(
+        //    new Livro()
+        //    {
+        //        Id = +contextDB.idContadorLivro++,
+        //        Nome = "Use a Cabeça SQL",
+        //        Ativo = true
+        //    });
+        //    contextDB.ListaDeLivros.Add(
+        //    new Livro()
+        //    {
+        //        Id = contextDB.idContadorLivro++,
+        //        Nome = "Guia do Mochileiro das Galáxias",
+        //        Ativo = true
+        //    });
+        //    contextDB.ListaDeLivros.Add(
+        //    new Livro()
+        //    {
+        //        Id = contextDB.idContadorLivro++,
+        //        Nome = "Aprendendo Lógica de Programação",
+        //        Ativo = true
+        //    });
+        //}
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\bin\Debug\AggregateLinq.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\bin\Debug\AggregateLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\bin\Debug\AggregateLinq.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\obj\Debug\AggregateLinq.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\obj\Debug\AggregateLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AggregateLinq\obj\Debug\AggregateLinq.pdb

@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\bin\Debug\AvarageLinq.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\bin\Debug\AvarageLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\bin\Debug\AvarageLinq.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\obj\Debug\AvarageLinq.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\obj\Debug\AvarageLinq.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\obj\Debug\AvarageLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\AvarageLinq\obj\Debug\AvarageLinq.pdb

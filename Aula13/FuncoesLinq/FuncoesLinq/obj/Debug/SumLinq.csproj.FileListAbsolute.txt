@@ -1,0 +1,7 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\bin\Debug\FuncoesLinq.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\bin\Debug\FuncoesLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\bin\Debug\FuncoesLinq.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\obj\Debug\SumLinq.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\obj\Debug\SumLinq.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\obj\Debug\FuncoesLinq.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\FuncoesLinq\FuncoesLinq\obj\Debug\FuncoesLinq.pdb

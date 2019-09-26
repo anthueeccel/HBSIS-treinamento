@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.pdb

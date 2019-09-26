@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListagemDeCarros</name>
+    </assembly>
+    <members>
+        <member name="M:ListagemDeCarros.Controller.CarroController.GetCarros">
+            <summary>
+            Método que retorna a lita de carros.
+            </summary>
+            <returns>lista de carros List</returns>
+        </member>
+    </members>
+</doc>

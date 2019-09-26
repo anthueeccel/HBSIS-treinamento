@@ -8,3 +8,5 @@ C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterf
 C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.pdb
 C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ClassLibrary.dll
 C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ClassLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\itextsharp.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\itextsharp.xml

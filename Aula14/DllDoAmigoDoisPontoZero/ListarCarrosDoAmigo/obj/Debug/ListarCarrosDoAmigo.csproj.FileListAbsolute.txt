@@ -1,0 +1,10 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\obj\Debug\ListarCarrosDoAmigo.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\obj\Debug\ListarCarrosDoAmigo.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\bin\Debug\ListarCarrosDoAmigo.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\bin\Debug\ListarCarrosDoAmigo.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\bin\Debug\ListarCarrosDoAmigo.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\bin\Debug\ListagemDeCarros.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\bin\Debug\ListagemDeCarros.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\obj\Debug\ListarCarrosDoAmigo.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\obj\Debug\ListarCarrosDoAmigo.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula14\DllDoAmigoDoisPontoZero\ListarCarrosDoAmigo\obj\Debug\ListarCarrosDoAmigo.pdb

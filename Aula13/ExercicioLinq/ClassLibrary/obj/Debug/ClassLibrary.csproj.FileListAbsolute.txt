@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ClassLibrary\obj\Debug\ClassLibrary.pdb

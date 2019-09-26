@@ -1,0 +1,10 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ExercInterface.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ExercInterface.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ExercInterface.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\obj\Debug\ExercInterface.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula13\ExercicioLinq\ExercInterface\bin\Debug\ClassLibrary.pdb

@@ -1,0 +1,6 @@
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\bin\Debug\ListagemDeCervejas.dll
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\bin\Debug\ListagemDeCervejas.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\obj\Debug\ListagemDeCervejas.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\obj\Debug\ListagemDeCervejas.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\obj\Debug\ListagemDeCervejas.dll
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\ListagemDeCervejas\obj\Debug\ListagemDeCervejas.pdb

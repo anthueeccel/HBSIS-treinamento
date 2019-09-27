@@ -9,12 +9,17 @@ namespace ListarCarrosDoAmigo
 {
     class Program
     {
+            static CarroController controller = new CarroController();
         static void Main(string[] args)
         {
-            CarroController controller = new CarroController();
-
-            controller.GetCarros().ForEach(x => Console.WriteLine($"Marca {x.Marca} Modelo {x.Modelo} Ano {x.Ano} Cilindradas {x.Cilindradas} Portas {x.Portas}"));
+            ImprimeListaCarro();
             Console.ReadKey();
+        }
+
+        public static void ImprimeListaCarro()
+        {
+            controller.GetCarros().ForEach(x => Console.WriteLine($"Marca {x.Marca} Modelo {x.Modelo} Ano {x.Ano} Cilindradas {x.Cilindradas} Portas {x.Portas}"));
+
         }
     }
 }

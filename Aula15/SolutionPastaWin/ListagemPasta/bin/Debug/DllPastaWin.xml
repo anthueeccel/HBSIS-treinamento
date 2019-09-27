@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DllPastaWin</name>
+    </assembly>
+    <members>
+        <member name="T:DllPastaWin.DocumentsAutoGenerate">
+            <summary>
+            Classe que cria pasta nos meu documentos com arquivos dentros
+            </summary>
+        </member>
+        <member name="M:DllPastaWin.DocumentsAutoGenerate.CriarPastaMeusDocumentos(System.String)">
+            <summary>
+            Metodo que cria uma pasta dentro do diretorio meus documentos
+            </summary>
+            <param name="NomeDaPasta">Nome da pasta que ira criar dentro do meus documentos</param>
+        </member>
+        <member name="M:DllPastaWin.DocumentsAutoGenerate.DeletarPastaMeusDocumentos(System.String,System.Boolean)">
+            <summary>
+            Metodo que deleta uma pasta dentro do meus documetnos de acordo com o nome informado
+            </summary>
+            <param name="NomeDaPasta">Nome da pasta e suas sub pasta</param>
+            <param name="apagarSubPastas">Se deseja apagar todas as subpasta internas</param>
+        </member>
+        <member name="M:DllPastaWin.DocumentsAutoGenerate.ObterPastasDiretorioMeuDocumentos">
+            <summary>
+            Metodo que lista completamente as pasta dos meu diretorios 
+            </summary>
+            <returns>Lista de pastas de em string que esta em meus documentos</returns>
+        </member>
+        <member name="M:DllPastaWin.HoraDoShow.Birllllllllll">
+            <summary>
+            Metodo da quinta lua sangrenta do 8 dia 
+            </summary>
+        </member>
+    </members>
+</doc>

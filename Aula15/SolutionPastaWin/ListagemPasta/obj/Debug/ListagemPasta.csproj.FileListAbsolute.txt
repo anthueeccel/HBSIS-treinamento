@@ -1,0 +1,11 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\ListagemPasta.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\ListagemPasta.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\ListagemPasta.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\DllPastaWin.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\DllPastaWin.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\bin\Debug\DllPastaWin.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\obj\Debug\ListagemPasta.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\obj\Debug\ListagemPasta.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\obj\Debug\ListagemPasta.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\obj\Debug\ListagemPasta.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula15\SolutionPastaWin\ListagemPasta\obj\Debug\ListagemPasta.pdb

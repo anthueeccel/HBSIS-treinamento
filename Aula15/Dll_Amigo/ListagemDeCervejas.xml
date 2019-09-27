@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListagemDeCervejas</name>
+    </assembly>
+    <members>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.GetCervejas">
+            <summary>
+            Metodo que retorna nossa lista completa de cervejas
+            </summary>
+            <returns>Retorna a lista o.o</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.AdicionarCerveja(ListagemDeCervejas.Model.Cerveja)">
+            <summary>
+            Metodo que adiciona em nossa geladeira mais cervejas
+            </summary>
+            <param name="cerveja">Aqui pegamos a cerveja para colocar na geladeira</param>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.RetornaValorTotalCervejas">
+            <summary>
+            Metodo que retorna o valor total em nossa lista de cerveja
+            </summary>
+            <returns>Retornamos o valor total</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.RetornaValorTotalListrosCerveja">
+            <summary>
+            Metodo que retorna o valor total de litros de cerveja que temos dentro de nossa geladeira
+            </summary>
+            <returns>Retornamos os litros em formato double</returns>
+        </member>
+    </members>
+</doc>

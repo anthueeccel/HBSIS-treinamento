@@ -8,3 +8,4 @@ C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\InterfaceCerve
 C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\InterfaceCerveja\obj\Debug\InterfaceCerveja.csproj.CopyComplete
 C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\InterfaceCerveja\obj\Debug\InterfaceCerveja.exe
 C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\InterfaceCerveja\obj\Debug\InterfaceCerveja.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\SistemaDeCervejas\InterfaceCerveja\bin\Debug\ListagemDeCervejas.xml

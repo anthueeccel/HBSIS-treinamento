@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListagemDeCervejas</name>
+    </assembly>
+    <members>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.GetCervejas">
+            <summary>
+            Método que lista todas as cervejas
+            </summary>
+            <returns>Lista de cervejas</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.AddCerveja(ListagemDeCervejas.Model.Cerveja)">
+            <summary>
+            Método que adiciona uma cerveja a lista de cervejas
+            </summary>
+            <param name="cerveja">Objeto com parâmentros da Cerveja</param>
+            <returns>Verdadeiro(adicionado) ou Falso(erro)</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.SomaValorCervejas">
+            <summary>
+            Método que retornar o valor total de cervejas da lista
+            </summary>
+            <returns>Valor (double) do total</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.SomaCervejasEmLitros">
+            <summary>
+            Método que retorna a soma total de litros da lista
+            </summary>
+            <returns>Valor total em litros(double)</returns>
+        </member>
+        <member name="M:ListagemDeCervejas.Controller.CervejaController.TesteAlcoolometria(System.Double,System.String)">
+            <summary>
+            Método que calcula e informa a quantidade de álcool no sangue.
+            </summary>
+            <param name="peso">pesso do usuário</param>
+            <param name="sexo">sexo do usuário</param>
+            <returns>percentual de alcool no sangue</returns>
+        </member>
+    </members>
+</doc>

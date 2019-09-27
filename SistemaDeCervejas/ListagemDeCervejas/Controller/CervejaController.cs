@@ -61,6 +61,13 @@ namespace ListagemDeCervejas.Controller
             return cervejaContext.ListaDeCervejas.Sum(v => v.Litros);
         }
 
+
+        /// <summary>
+        /// Método que calcula e informa a quantidade de álcool no sangue.
+        /// </summary>
+        /// <param name="peso">pesso do usuário</param>
+        /// <param name="sexo">sexo do usuário</param>
+        /// <returns>percentual de alcool no sangue</returns>
         public double TesteAlcoolometria(double peso, string sexo)
         {
             double coeficientePorSexo = (sexo.Equals('f') ? 0.6 : 0.7);

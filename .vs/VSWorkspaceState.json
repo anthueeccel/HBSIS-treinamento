@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Aula10",
+    "\\Aula10\\SolucaoParaLocacaoDeLivros",
+    "\\Aula10\\SolucaoParaLocacaoDeLivros\\LocacaoBiblioteca",
+    "\\Aula10\\SolucaoParaLocacaoDeLivros\\LocacaoBiblioteca\\Model",
+    "\\Aula16",
     "\\Aula3"
   ],
+  "SelectedNode": "\\Aula16\\SQL-scripts",
   "PreviewInSolutionExplorer": false
 }

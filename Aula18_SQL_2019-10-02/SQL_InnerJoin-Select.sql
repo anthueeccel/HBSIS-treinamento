@@ -16,3 +16,16 @@ SELECT c.Id, c.Nome as Cliente, SUM(p.Valor) as 'Total de Compras',IIF(SUM(p.Val
 	INNER JOIN Clientes c ON p.ClienteId = c.Id	
 GROUP BY c.Nome, c.Id
 ORDER BY c.Id ASC
+
+-- Mostra os pedidos, clientes e valor de determinados números de pedidos
+SELECT p.Numero,c.Nome, p.Valor FROM Clientes c
+	INNER JOIN Pedidos p ON c.Id = p.ClienteId
+	WHERE p.Numero in ('N00000001','N00000006', 'N00000017')
+
+-- Mostra os pedidos por ordem descrescente referente aos Clientes dos pedidos informados
+SELECT * FROM Pedidos p
+	WHERE p.ClienteId in (SELECT c.Id FROM Clientes c
+		INNER JOIN Pedidos p ON c.Id = p.ClienteId
+		WHERE p.Numero in ('N00000001','N00000006', 'N00000017'))
+ORDER BY p.Valor DESC
+

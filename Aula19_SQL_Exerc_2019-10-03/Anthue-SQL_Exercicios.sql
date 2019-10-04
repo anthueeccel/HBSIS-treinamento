@@ -49,29 +49,31 @@ select Count(Id) as 'Marcas cadastradas' from Carros
 	order by Count(Id) asc
 Go
 --Trazer somente os carros das marcas que Felipe cadastrou
-select * from Carros c
+select c.Modelo, m.Nome as 'Marca', IIF(c.Ativo = 1, 'Sim','Não') as 'Ativo' from Carros c
 	inner join Marcas m on m.Id = c.Marca
 	inner join Usuarios u on u.Usuario like 'Felipe'
-where c.UsuInc = u.Id
+where c.UsuInc = u.Id and m.UsuInc = u.Id
 Go
 
 --Trazer somente os carros das marcas que Giomar cadastrou
-select * from Carros c
+select c.Modelo, m.Nome as 'Marca', IIF(c.Ativo = 1, 'Sim','Não') as 'Ativo' from Carros c
 	inner join Marcas m on m.Id = c.Marca
-where c.UsuInc = 2 and m.UsuInc = 2
+	inner join Usuarios u on u.Usuario like 'Giomar'
+where c.UsuInc = u.Id and m.UsuInc = u.Id
+Go
 
 --Trazer somente a quantidade de carros das marcas que Felipe cadastrou maior para menor
 select count(c.Id) from Carros c
 	inner join Marcas m on m.Id = c.Marca
 	inner join Usuarios u on u.Usuario like 'Felipe'
-where c.UsuInc = u.Id
+where c.UsuInc = u.Id and m.UsuInc = u.Id
 order by count(c.Id) desc
 
 --Trazer somente a quantidade de carros das marcas que Giomar cadastrou menor para maior
 select count(c.Id) from Carros c
 	inner join Marcas m on m.Id = c.Marca
 	inner join Usuarios u on u.Usuario like 'Giomar'
-where c.UsuInc = u.Id
+where c.UsuInc = u.Id and m.UsuInc = u.Id
 order by count(c.Id) asc
 
 --Trazer o valor total de vendas 2019 isolado
@@ -85,14 +87,14 @@ select count(Id) as 'Qtde Unidades Vendidas (2019)' from Vendas
 	and DatAlt between '01/01/2019' and '12/01/2019'
 
 --Trazer o valor total de vendas em cada ano e ordenar do maior para o menor
-select  sum(Valor) as 'Total Vendas', YEAR(DatInc) as 'Ano'
+select  sum(Valor*Quantidade) as 'Total Vendas', YEAR(DatInc) as 'Ano'
 	from Vendas
 	where 
 		YEAR(DatInc) = '2018' or 
 		YEAR(DatInc) = '2019' or 
 		YEAR(DatInc) = '2020'
 	group by YEAR(DatInc)
-	order by sum(Valor) desc
+	order by sum(Valor*Quantidade) desc
 Go
 --Trazer a quantidade de vendas em cada ano e ordenar do maior para o menor
 select  count(Id) as 'Total Vendas', YEAR(DatInc) as 'Ano'
@@ -106,41 +108,53 @@ select  count(Id) as 'Total Vendas', YEAR(DatInc) as 'Ano'
 Go
 --Trazer o mês de cada ano que retornou a maior quantidade de vendas
 --		- Tradução "Retornar agrupado por mês e ordenar do maior para menor"
-select   Count(Id) as 'Total Vendas', MONTH(DatInc) as 'Mês', YEAR(DatInc) as 'Ano'	
-	from Vendas
-	where 
-		YEAR(DatInc) = '2018' or
-		YEAR(DatInc) = '2019' or 
-		YEAR(DatInc) = '2020'
-	group by  MONTH(DatInc), YEAR(DatInc)
-	order by Count(Id) desc, Month(DatInc)	
-Go
--- com subSelect
-select top 1
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2018'	group by MONTH(DatInc) order by count(Id) desc) as '2018',
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2019'	group by MONTH(DatInc) order by count(Id) desc) as '2019',
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2020'	group by MONTH(DatInc) order by count(Id) desc) as '2020'
-from Vendas
-Go
+--select   Count(Id) as 'Total Vendas', MONTH(DatInc) as 'Mês', YEAR(DatInc) as 'Ano'	
+--	from Vendas
+--	where 
+--		YEAR(DatInc) = '2018' or
+--		YEAR(DatInc) = '2019' or 
+--		YEAR(DatInc) = '2020'
+--	group by  MONTH(DatInc), YEAR(DatInc)
+--	order by Count(Id) desc, Month(DatInc)	
+--Go
+---- com subSelect
+--select top 1
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2018'	group by MONTH(DatInc) order by count(Id) desc) as '2018',
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2019'	group by MONTH(DatInc) order by count(Id) desc) as '2019',
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2020'	group by MONTH(DatInc) order by count(Id) desc) as '2020'
+--from Vendas
+--Go
 
-select top 1 
-	Month(DatInc) as 'Mês',
-	sum(Valor) as 'Total Vendas'	
-	from Vendas	
-	where YEAR(DatInc) = '2018'	
-	group by MONTH(DatInc) 
-	order by count(Id) desc
-Go
-
+-- Felipe
+SELECT YEAR(ven1.DatInc),
+(	SELECT TOP 1 MONTH(ven.DatInc)
+        FROM Vendas ven
+        WHERE YEAR(ven.DatInc) = YEAR(ven1.DatInc)
+  GROUP BY MONTH(ven.DatInc)
+  ORDER BY SUM(ven.Quantidade) DESC)
+FROM Vendas ven1
+GROUP BY YEAR(ven1.DatInc)
+GO
 
 --Trazer o mês de cada ano que retornou o maior valor de vendas
 --		- Tradução "Retornar agrupado por mês e ordenar do maior para menor"
-select top 1
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2018'	group by MONTH(DatInc) order by sum(Valor) desc) as '2018',
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2019'	group by MONTH(DatInc) order by sum(Valor) desc) as '2019',
-(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2020'	group by MONTH(DatInc) order by sum(Valor) desc) as '2020'
-from Vendas
-Go
+--select top 1
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2018'	group by MONTH(DatInc) order by sum(Valor) desc) as '2018',
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2019'	group by MONTH(DatInc) order by sum(Valor) desc) as '2019',
+--(select top 1 Month(DatInc)	from Vendas	where YEAR(DatInc) = '2020'	group by MONTH(DatInc) order by sum(Valor) desc) as '2020'
+--from Vendas
+--Go
+
+SELECT YEAR(ven1.DatInc),
+(	SELECT TOP 1 MONTH(ven.DatInc)
+        FROM Vendas ven
+        WHERE YEAR(ven.DatInc) = YEAR(ven1.DatInc)
+  GROUP BY MONTH(ven.DatInc)
+  ORDER BY SUM(ven.Valor) DESC)
+FROM Vendas ven1
+GROUP BY YEAR(ven1.DatInc)
+GO
+
 
 --Trazer o valor total de vendas que Felipe realizou
 select sum(v.Valor) as 'Total Vendas', u.Usuario as 'Usuário' from Vendas v
@@ -186,21 +200,42 @@ Go
 
 --Trazer  a marca mais vendida de todos os anos
 --		- Tradução "Retornar todas as marcas que foram vendidas mas ordernada da maior para menor"
-Select m.Nome as 'Marca', count(m.Id) as 'Qtde Vendida' from Carros c 
+Select top 1 m.Nome as 'Marca', count(m.Id) as 'Qtde Vendida' from Carros c 
 	inner join Marcas m on m.Id = c.Marca
 	inner join Vendas v on v.Carro = c.Id
 	group by m.Nome, c.Marca
 	order by count(m.Id) desc
 Go
---Trazer o valor total da marca mais vendida de todos os anos		
-Select sum(
-	Select count(m.Id) from Carros c 
+--Trazer o valor total da marca mais vendida de todos os anos	
+select top 1 sum(v.Valor*v.Quantidade) as 'Vendas Total $', m.Nome as 'Marca +Vendida'
+	from Carros c
 	inner join Marcas m on m.Id = c.Marca
 	inner join Vendas v on v.Carro = c.Id
-	group by m.Nome, c.Marca
-	order by count(m.Id) desc)* v 
-
-
+	group by m.Nome
+	order by sum(v.Valor) desc 
 
 --Trazer a quantidade do carro mais vendido de todos os anos
+select top 2 sum(v.Quantidade) as 'Vendas Total (Unid)', c.Modelo as 'Carro +Vendido', c.Id as 'Codigo'
+	from Carros c	
+	inner join Vendas v on v.Carro = c.Id
+	group by c.Modelo, c.Id
+	order by sum(v.Quantidade*v.Valor) desc 
+
 --Trazer o valor do carro mais vendido de todos os anos
+select avg(v.Valor), sum(v.Quantidade) as 'Vendas Total (Unid)', c.Modelo as 'Carro +Vendido', c.Id as 'Codigo'
+	from Carros c	
+	inner join Vendas v on v.Carro = c.Id
+	group by c.Modelo, c.Id
+	order by sum(v.Quantidade) desc 
+
+
+
+
+--Estudo //incompleto
+--declare @MarcaTop int;
+--set @MarcaTop = (Select top 1 count(m.Id) as veicId from Carros c 
+--	inner join Marcas m on m.Id = c.Marca
+--	inner join Vendas v on v.Carro = c.Id
+--	group by c.Marca
+--	order by count(m.Id) desc) 
+--Select @MarcaTop from Vendas

@@ -1,0 +1,15 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\AlunoInterface.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\AlunoInterface.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\AlunoInterface.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\ClassLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\ClassLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\obj\Debug\AlunoInterface.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\obj\Debug\AlunoInterface.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\obj\Debug\AlunoInterface.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\obj\Debug\AlunoInterface.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\obj\Debug\AlunoInterface.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\AlunoInterface\bin\Debug\EntityFramework.SqlServer.xml

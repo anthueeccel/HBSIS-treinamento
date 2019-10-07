@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\ExercicioAlunoEF\ClassLibrary\obj\Debug\ClassLibrary.pdb

@@ -1,0 +1,11 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityClass.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityClass.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityClass.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\obj\Debug\EntityClass.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\obj\Debug\EntityClass.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\obj\Debug\EntityClass.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula21_SQL_EF_2019-10-07\IniciandoEntityFramework\EntityClass\obj\Debug\EntityClass.pdb

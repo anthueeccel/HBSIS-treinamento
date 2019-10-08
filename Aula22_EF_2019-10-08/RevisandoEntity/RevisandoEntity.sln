@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceCerveja", "RevisandoEF\InterfaceCerveja.csproj", "{EC4C831A-FAFB-4431-A0B9-E6D543F5384A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisandoEntity", "RevisandoEntity\RevisandoEntity.csproj", "{7AE09859-50F0-43F4-AE9C-657F67540629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC4C831A-FAFB-4431-A0B9-E6D543F5384A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4C831A-FAFB-4431-A0B9-E6D543F5384A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4C831A-FAFB-4431-A0B9-E6D543F5384A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4C831A-FAFB-4431-A0B9-E6D543F5384A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE09859-50F0-43F4-AE9C-657F67540629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE09859-50F0-43F4-AE9C-657F67540629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE09859-50F0-43F4-AE9C-657F67540629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE09859-50F0-43F4-AE9C-657F67540629}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F05CA74E-CDC5-47C5-BC0F-35DC1855A891}
+	EndGlobalSection
+EndGlobal

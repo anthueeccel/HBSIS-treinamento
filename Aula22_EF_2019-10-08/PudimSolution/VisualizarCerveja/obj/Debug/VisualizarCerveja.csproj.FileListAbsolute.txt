@@ -1,0 +1,15 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\VisualizarCerveja.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\VisualizarCerveja.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\VisualizarCerveja.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\CodeFirstTeste.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\CodeFirstTeste.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\CodeFirstTeste.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\obj\Debug\VisualizarCerveja.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\obj\Debug\VisualizarCerveja.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\obj\Debug\VisualizarCerveja.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\obj\Debug\VisualizarCerveja.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\VisualizarCerveja\obj\Debug\VisualizarCerveja.pdb

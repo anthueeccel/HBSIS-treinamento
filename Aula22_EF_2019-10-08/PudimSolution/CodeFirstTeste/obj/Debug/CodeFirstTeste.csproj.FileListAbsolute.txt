@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\CodeFirstTeste.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\CodeFirstTeste.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\CodeFirstTeste.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\obj\Debug\CodeFirstTeste.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\obj\Debug\CodeFirstTeste.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\obj\Debug\CodeFirstTeste.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\obj\Debug\CodeFirstTeste.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\PudimSolution\CodeFirstTeste\obj\Debug\CodeFirstTeste.pdb

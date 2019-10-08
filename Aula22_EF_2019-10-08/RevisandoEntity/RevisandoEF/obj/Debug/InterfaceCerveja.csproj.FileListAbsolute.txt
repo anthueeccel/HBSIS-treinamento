@@ -1,0 +1,15 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEF.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEF.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEF.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEntity.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEntity.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\RevisandoEntity.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\obj\Debug\InterfaceCerveja.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\obj\Debug\InterfaceCerveja.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\obj\Debug\InterfaceCerveja.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\obj\Debug\RevisandoEF.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEF\obj\Debug\RevisandoEF.pdb

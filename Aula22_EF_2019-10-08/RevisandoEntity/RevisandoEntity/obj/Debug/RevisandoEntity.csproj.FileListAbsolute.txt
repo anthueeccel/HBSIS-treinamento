@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\RevisandoEntity.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\RevisandoEntity.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\RevisandoEntity.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\obj\Debug\RevisandoEntity.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\obj\Debug\RevisandoEntity.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\obj\Debug\RevisandoEntity.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\obj\Debug\RevisandoEntity.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula22_EF_2019-10-08\RevisandoEntity\RevisandoEntity\obj\Debug\RevisandoEntity.pdb

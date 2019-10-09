@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\CatalogoCelulares.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\CatalogoCelulares.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\obj\Debug\CatalogoCelulares.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\obj\Debug\CatalogoCelulares.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\obj\Debug\CatalogoCelulares.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\obj\Debug\CatalogoCelulares.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\CatalogoCelulares.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CatalogoCelulares\obj\Debug\CatalogoCelulares.csproj.CopyComplete

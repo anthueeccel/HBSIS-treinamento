@@ -1,0 +1,15 @@
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CellDu.exe.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CellDu.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CellDu.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CatalogoCelulares.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CatalogoCelulares.pdb
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\CatalogoCelulares.dll.config
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\obj\Debug\CellDu.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\obj\Debug\CellDu.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\obj\Debug\CellDu.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\obj\Debug\CellDu.exe
+C:\Users\900066\source\repos\anthueeccel\proway\Aula23_EF_2019-10-09\SistemaCelular\CellDu\obj\Debug\CellDu.pdb

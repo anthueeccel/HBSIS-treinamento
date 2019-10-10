@@ -16,6 +16,6 @@ namespace LocacaoBiblioteca.Model
         public string Login { get; set; }
         [StringLength(50)]
         public string Senha { get; set; }
-   
+
     }
 }

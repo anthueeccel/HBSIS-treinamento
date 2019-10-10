@@ -30,15 +30,20 @@ namespace LocacaoBiblioteca.Controller
         /// </summary>
         /// <param name="Usuario">passamos um objeto Usuario</param>
         /// <returns>Verdadeiro quando existir usuário com este login e senha</returns>
-        //public bool LoginSistema(Usuario usuarios)
-        //{
-        //    return contextDB.Usuarios.HasRow(x => x.Login == usuarios.Login && x.Senha == usuarios.Senha);
-                     
-        //}
-
+        public bool LoginSistema(Usuario usuario)
+        {
+            var result = contextDb.Usuarios.FirstOrDefault(x => x.Login == usuario.Login && x.Senha == usuario.Senha);
+            if (result != null)
+                return true;
+            else
+                return false;
+        }
         
 
-        
+        /// <summary>
+        /// Métoo que retorna a lista dos usuários
+        /// </summary>
+        /// <returns></returns>
         public IQueryable<Usuario> GetUsuarios()
         {
             return contextDb.Usuarios.Where(x => x.Ativo == true);

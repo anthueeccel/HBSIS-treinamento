@@ -15,11 +15,13 @@ namespace InterfaceBiblioteca
         static UsuarioController usuariosController = new UsuarioController();
         static Usuario usuario = new Usuario();
         static Livro livro = new Livro();
+        static Usuario logedin = null;
+
         #region Método Main
         static void Main(string[] args)
         {
 
-            //TelaDeLogin();
+            TelaDeLogin();
 
             MostraMenuSistema();
 
@@ -34,7 +36,8 @@ namespace InterfaceBiblioteca
             while (opcao != 0)
             {
                 Console.Clear();
-                Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 1.0");
+                Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 2.0.1");
+                Console.WriteLine($"Não é {logedin.Login.ToUpper()}? Pressione 9.");
                 Console.WriteLine("Menu sistema");
                 Console.WriteLine("1 - Listar usuários");
                 Console.WriteLine("2 - Cadastra Usuario");
@@ -82,11 +85,9 @@ namespace InterfaceBiblioteca
                         AtualizaLivro();
                         Console.ReadKey();
                         break;
-
-
                     case 9:
                         Console.Clear();
-                        //TelaDeLogin();
+                        TelaDeLogin();
                         break;
                     default:
                         break;
@@ -173,6 +174,7 @@ namespace InterfaceBiblioteca
                 .ForEach(s => Console.WriteLine($"ID: {s.Id} NOME: {s.Login} SENHA: ****** ATIVO: {s.Ativo.ToString()}"));
 
         }
+
         /// <summary>
         /// Método que Exclui/Inativa um livro do sistema
         /// </summary>
@@ -187,7 +189,6 @@ namespace InterfaceBiblioteca
             if (confirmaExclusao == "s")
                 livrosController.DeleteLivro(id);
         }
-
 
         /// <summary>
         /// Método que cadastra usuário no sistema
@@ -228,31 +229,33 @@ namespace InterfaceBiblioteca
         /// Tela de login (console) do sistema para validar login e senha para acessar o sistema
         /// </summary>
         /// <returns>Login e senha = verdadeiro ou falso</returns>
-        //private static bool RealizaLoginSistema()
-        //{
-        //    Console.WriteLine("Informe seu login e senha para acessar o sistema: ");
+        private static bool RealizaLoginSistema()
+        {
+            Console.WriteLine("Informe seu login e senha para acessar o sistema: ");
 
-        //    Console.Write("Login: ");
-        //    var loginDoUsuario = Console.ReadLine();
-        //    Console.Write("Senha: ");
-        //    var senhaDoUsuario = Console.ReadLine();
+            Console.Write("Login: ");
+            usuario.Login = Console.ReadLine();
+            Console.Write("Senha: ");
+            usuario.Senha = Console.ReadLine();
 
+            if (usuariosController.LoginSistema(usuario))
+            {
+                logedin = usuario;
+                return true;
+            }
+            else
+                return false;
 
-        //return usuariosController.LoginSistema(new Usuario()
-        //{
-        //    Login = loginDoUsuario,
-        //    Senha = senhaDoUsuario
-        //});
-        //}
+        }
 
         /// <summary>
         /// Tela inicial de Login
         /// </summary>
-        //private static void TelaDeLogin()
-        //{
-        //    while (!RealizaLoginSistema())
-        //        Console.WriteLine("Login ou senha inválidos");
-        //}
+        private static void TelaDeLogin()
+        {
+            while (!RealizaLoginSistema())
+                Console.WriteLine("Login ou senha inválidos");
+        }
 
         private static void ImprimeListaUsuario(Usuario usuario)
         {

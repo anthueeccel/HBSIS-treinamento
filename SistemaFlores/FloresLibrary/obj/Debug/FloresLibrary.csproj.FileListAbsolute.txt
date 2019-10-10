@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\obj\Debug\FloresLibrary.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\FloresLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\FloresLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\FloresLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\obj\Debug\FloresLibrary.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\obj\Debug\FloresLibrary.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\obj\Debug\FloresLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\SistemaFlores\FloresLibrary\obj\Debug\FloresLibrary.pdb

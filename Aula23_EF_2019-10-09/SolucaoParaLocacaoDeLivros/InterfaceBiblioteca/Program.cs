@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using LocacaoBiblioteca.Model;
+using LocacaoBiblioteca.Utils;
 
 namespace InterfaceBiblioteca
 {
@@ -33,7 +34,7 @@ namespace InterfaceBiblioteca
         private static void MostraMenuSistema()
         {
             int opcao = int.MinValue;
-            while (opcao != 0)
+            while (opcao != 99)
             {
                 Console.Clear();
                 Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 2.0.1");
@@ -88,6 +89,10 @@ namespace InterfaceBiblioteca
                     case 9:
                         Console.Clear();
                         TelaDeLogin();
+                        break;
+                    case 0:
+                        Console.Write("\nEncerrando sistema");
+                        opcao = 99;
                         break;
                     default:
                         break;
@@ -205,7 +210,7 @@ namespace InterfaceBiblioteca
             new Usuario()
             {
                 Login = usuario.Login,
-                Senha = usuario.Senha,
+                Senha = EncryptMD5.MD5Hash(usuario.Senha),
                 Ativo = true
             };
 
@@ -232,15 +237,15 @@ namespace InterfaceBiblioteca
         private static bool RealizaLoginSistema()
         {
             Console.WriteLine("Informe seu login e senha para acessar o sistema: ");
-
+            Usuario usuLogin = new Usuario();
             Console.Write("Login: ");
-            usuario.Login = Console.ReadLine();
+            usuLogin.Login = Console.ReadLine();
             Console.Write("Senha: ");
-            usuario.Senha = Console.ReadLine();
+            usuLogin.Senha = Console.ReadLine();
 
-            if (usuariosController.LoginSistema(usuario))
+            if (usuariosController.LoginSistema(usuLogin))
             {
-                logedin = usuario;
+                logedin = usuLogin;
                 return true;
             }
             else

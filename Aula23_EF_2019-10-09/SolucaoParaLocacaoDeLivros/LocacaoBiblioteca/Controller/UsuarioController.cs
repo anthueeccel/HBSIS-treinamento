@@ -1,4 +1,5 @@
 ﻿using LocacaoBiblioteca.Model;
+using LocacaoBiblioteca.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,8 @@ namespace LocacaoBiblioteca.Controller
         /// <returns>Verdadeiro quando existir usuário com este login e senha</returns>
         public bool LoginSistema(Usuario usuario)
         {
-            var result = contextDb.Usuarios.FirstOrDefault(x => x.Login == usuario.Login && x.Senha == usuario.Senha);
+            var Md5Pass = EncryptMD5.MD5Hash(usuario.Senha);
+            var result = contextDb.Usuarios.FirstOrDefault(x => x.Login == usuario.Login && x.Senha == Md5Pass);
             if (result != null)
                 return true;
             else
@@ -94,7 +96,7 @@ namespace LocacaoBiblioteca.Controller
             {
                 result.Id = usuarioUpdate.Id;
                 result.Login = usuarioUpdate.Login;
-                result.Senha = usuarioUpdate.Senha;
+                result.Senha = EncryptMD5.MD5Hash(usuarioUpdate.Senha);
                 contextDb.SaveChanges();
                 return true;
             }

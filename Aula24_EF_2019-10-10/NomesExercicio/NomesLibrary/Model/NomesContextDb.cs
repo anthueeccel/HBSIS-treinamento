@@ -9,7 +9,7 @@ namespace NomesLibrary.Model
 {
     public class NomesContextDb : DbContext
     {
-        DbSet<Nome> Nomes { get; set; }
+        public DbSet<Nome> Nomes { get; set; }
 
 
     }

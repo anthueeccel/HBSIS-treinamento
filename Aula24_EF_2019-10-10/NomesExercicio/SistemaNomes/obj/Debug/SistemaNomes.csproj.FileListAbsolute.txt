@@ -1,0 +1,15 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\SistemaNomes.exe.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\SistemaNomes.exe
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\SistemaNomes.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\NomesLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\NomesLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\NomesLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\obj\Debug\SistemaNomes.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\obj\Debug\SistemaNomes.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\obj\Debug\SistemaNomes.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\obj\Debug\SistemaNomes.exe
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\SistemaNomes\obj\Debug\SistemaNomes.pdb

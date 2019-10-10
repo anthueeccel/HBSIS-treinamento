@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\NomesLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\NomesLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\NomesLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\obj\Debug\NomesLibrary.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\obj\Debug\NomesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\obj\Debug\NomesLibrary.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\obj\Debug\NomesLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\NomesExercicio\NomesLibrary\obj\Debug\NomesLibrary.pdb

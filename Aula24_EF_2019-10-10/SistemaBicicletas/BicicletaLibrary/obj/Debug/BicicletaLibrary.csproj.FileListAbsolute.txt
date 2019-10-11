@@ -1,0 +1,12 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\obj\Debug\BicicletaLibrary.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\obj\Debug\BicicletaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\BicicletaLibrary.dll.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\BicicletaLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\BicicletaLibrary.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\obj\Debug\BicicletaLibrary.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\obj\Debug\BicicletaLibrary.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula24_EF_2019-10-10\SistemaBicicletas\BicicletaLibrary\obj\Debug\BicicletaLibrary.pdb

@@ -56,6 +56,7 @@
     <Compile Include="Model\BicicletaContext.cs" />
     <Compile Include="Model\Marca.cs" />
     <Compile Include="Model\Modelo.cs" />
+    <Compile Include="Model\UserControls.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

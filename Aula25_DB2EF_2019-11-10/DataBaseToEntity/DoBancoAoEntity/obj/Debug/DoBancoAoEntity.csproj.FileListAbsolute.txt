@@ -1,0 +1,16 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\DoBancoAoEntity.dll.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\DoBancoAoEntity.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\DoBancoAoEntity.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.csproj.CoreCompileInputs.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.Migrations.First.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.csproj.GenerateResource.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.Migrations.Second.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula25_DB2EF_2019-11-10\DataBaseToEntity\DoBancoAoEntity\obj\Debug\DoBancoAoEntity.Migrations.Third.resources

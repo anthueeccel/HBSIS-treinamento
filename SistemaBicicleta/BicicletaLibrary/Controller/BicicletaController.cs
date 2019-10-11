@@ -13,7 +13,7 @@ namespace BicicletaLibrary.Controller
 
                 
         /// <summary>
-        /// Métoo que retorna a lista dos usuários
+        /// Métoo que retorna a lista dos bicicletas
         /// </summary>
         /// <returns></returns>
         public IQueryable<Bicicleta> GetBicicletas()

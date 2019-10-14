@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Exercicio</title>
+
+  <script>
+    function myFunction() {
+      if(document.getElementById("campotexto").value === ""){
+      alert('Você não digitou seu nome')
+      }
+      else{
+      alert('Parabéns ' + document.getElementById("campotexto").value);
+      }
+    }
+    function justifyLeft() {
+      document.getElementById("texto2").style.textAlign = "left";
+    }
+
+    function justifyRight() {
+      document.getElementById("texto2").style.textAlign = "right";
+    }
+
+    function justifyCenter() {
+      document.getElementById("texto2").style.textAlign = "center";
+    }
+
+    function PrintElem(elem)
+{
+    var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+    mywindow.document.write('<html><head><title>' + document.title  + '</title>');
+    mywindow.document.write('</head><body >');
+    mywindow.document.write('<h1>' + document.title  + '</h1>');
+    mywindow.document.write(document.getElementById(elem).innerHTML);
+    mywindow.document.write('</body></html>');
+
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10*/
+
+    mywindow.print();
+    mywindow.close();
+
+    return true;
+}
+
+
+  </script>
+</head>
+
+<style>
+html,body {
+  width: 210mm;
+  height: 297mm;
+  margin: 30mm 45mm 30mm 45mm;
+}
+
+
+  .topBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+  }
+
+  .mainBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+  .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 10mm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .subpage {
+        padding: 1cm;
+        border: 1px darkslategray solid;
+        height: 257mm;
+        outline: 2cm #FFEAEA solid;
+    }
+    
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            display: none;
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            display: block;
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;            
+        }
+        .subpage{
+          display: block;
+        }
+    }
+
+</style>
+
+
+<body>
+  <div class="container">
+    <div class="col-md-12">
+      <div class="topBox">
+        <span>Bem-vindo ao site</span>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="mainBox">
+        <span>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris.
+          Atirei
+          o pau no gatis, per gatis num morreus. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
+          vitae iaculis nisl. Sapien in monti palavris qui num significa nadis i pareci latim.</span>
+      </div>
+      <div class="col-md-3">
+        <input type="text" name="campotexto" id="campotexto" placeholder="digite seu nome" />
+      </div>
+      <div class="col-md-3">
+        <input type="password" name="password" id="password" placeholder="Digite sua senha" />
+      </div>
+      <div class="col-md-3">
+        <input type="radio" name="radio1" id="radio1" />Selecionável
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-success" name="inputButton" id="inputButton" onclick='myFunction()'>InputButton</button>
+      </div>
+</div>
+
+<div class="contents">
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-primary" onclick="alert('Você apertou o botão')">Botão</button>
+    </div>
+  </div>
+  <div class="container">
+    <div id="page"  class="page">
+      <div class="subpage">
+        <p id="texto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a enim nec diam luctus volutpat non vitae quam. Aenean faucibus, quam nec convallis sagittis, eros odio pulvinar velit, et placerat diam mauris vitae massa. Vestibulum molestie in nisl vel posuere. Phasellus egestas, massa vitae laoreet pellentesque, neque orci lobortis lectus, sed egestas sapien sem vel mauris. Donec luctus placerat felis, nec facilisis dolor tincidunt non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sed commodo libero, nec blandit lorem. Praesent volutpat nisl odio, eu dignissim velit cursus a. Donec commodo, elit ac lobortis mollis, eros lectus iaculis magna, non pharetra diam lectus nec felis. Duis accumsan purus lectus, a dapibus purus posuere id. Vestibulum libero erat, lacinia eget feugiat eu, sollicitudin sed nunc. Praesent faucibus sed nunc eget egestas. Etiam sagittis sollicitudin erat.
+
+            Etiam suscipit risus sed tincidunt consectetur. Fusce ac lorem finibus, pharetra mauris viverra, lobortis felis. Suspendisse potenti. Sed sodales tincidunt turpis, nec gravida diam lacinia at. Donec lobortis eros quis metus efficitur, et auctor sapien commodo. Nulla velit dolor, pulvinar placerat mauris quis, lacinia rutrum ligula. Etiam efficitur convallis ultrices. Maecenas mollis, lectus sed condimentum ultrices, diam ipsum fermentum dui, quis porttitor nulla metus sed sem.
+            
+            Curabitur cursus nisi ac lacus cursus pellentesque. Ut a augue sed est sagittis accumsan. Proin nisi dui, facilisis quis turpis rutrum, vulputate auctor quam. Ut gravida eu ex sed lacinia. Morbi id ornare metus. Nulla ut congue risus, vitae lacinia lectus. Curabitur at convallis massa. Phasellus sed volutpat elit. Ut pharetra porta velit sit amet efficitur. Vivamus elementum rhoncus libero, non malesuada lacus tempor vel. Aenean lobortis, magna sed laoreet feugiat, velit lacus blandit lectus, sit amet egestas dolor nunc eget dui. Praesent varius nulla eu felis posuere, porta sollicitudin dolor bibendum. Nullam efficitur congue diam, vitae pretium quam posuere a.
+            
+            Mauris non eros et nisi consectetur mattis a sed erat. Etiam congue faucibus porttitor. Cras sagittis ipsum mauris, a viverra tortor eleifend ac. Phasellus nec aliquet dui. Praesent mi arcu, placerat a tortor vel, blandit varius arcu. Suspendisse quis tristique nisi. Donec vitae maximus risus, at euismod orci. Fusce blandit vitae nibh a faucibus. Praesent enim dui, euismod vitae purus sed, dignissim eleifend mauris. Integer ut rutrum mi. In accumsan magna eget augue consequat, a accumsan sem facilisis. Quisque consequat, ligula a sodales consectetur, libero urna condimentum metus, ac fringilla enim erat sit amet velit. In pellentesque faucibus lorem, in tempus lectus ultrices a. Vestibulum euismod, risus id tincidunt lobortis, magna lorem sagittis risus, ut ultricies enim felis at dolor. Mauris sollicitudin ipsum a tempor bibendum. Cras nec posuere magna.
+            
+            Mauris ac lacus eget lorem ullamcorper imperdiet. Etiam ut quam vitae metus mollis lacinia non ut nisi. Nullam maximus quis eros eget lacinia. Mauris sed consequat dui. Mauris non cursus velit. Donec sed imperdiet purus. Pellentesque pretium fringilla mauris, ut euismod mi sagittis a. Praesent leo urna, maximus vitae massa quis, porttitor iaculis sapien. Nunc non suscipit urna, volutpat blandit lorem. Integer vitae turpis at eros vehicula hendrerit quis vel quam. Aliquam suscipit lectus non quam fermentum pharetra. Sed urna erat, consequat quis convallis eget, ultricies eget dolor.
+          </p>
+      </div>
+      <div class="col-md-8">
+        <button class="btn btn-secondary" onclick="justifyLeft()">Esquerda</button>
+        <button class="btn btn-secondary" onclick="justifyCenter()">Centro</button>
+        <button class="btn btn-secondary" onclick="justifyRight()">Direita</button>
+        <button class="btn btn-info" onclick="PrintElem('texto2')">Imprimir</button>
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>

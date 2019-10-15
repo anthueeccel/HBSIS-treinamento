@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;    
+}
+.body{
+    background-image: url("https://www.urbanarts.com.br/imagens/produtos/059639/0/Ampliada/green-background.jpg");
+    background-size: cover;
+}
+
+
+</style>
+</head>
+<body class="body">
+    <div class="row h-100" style="background-color:transparent; margin-top: 30vh;">
+        <div class="col-12 h-100 d-table" style="background-color:transparent;">
+            <div class="card card-block d-table-cell align-middle" style="background-color:transparent;">
+                <div class="row d-flex justify-content-center">
+                    <div class="card align-middle" style="background: #ffffffc7;">
+                        <div class="card-header">
+                            Formulário
+                        </div>
+                        <div class="col-md-12 card-body">
+                            <div class="row form-group">
+                                <div class="col-md-12 ">
+                                    <input type="text" class="w-100 form-control" name="nome"
+                                        placeholder="Nome completo" />
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-8">
+                                    <input type="text" class="w-100 form-control" name="nacionalidade"
+                                        placeholder="Nacionalidade" />
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="w-100 form-control" name="idade" placeholder="Idade"
+                                        onblur="idade()" />
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <input type="text" name="cpf" class="w-100 form-control" maxlength="14"
+                                        pattern="[0-9]+$" placeholder="Informe seu cpf"
+                                        OnKeyPress="formatar('###.###.###-##', this)" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date" class="w-100 form-control" maxlength="10"
+                                        name="datanascimento" />
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12">
+                                    <input type="button" class="w-100 btn btn-success" name="enviar" value="enviar" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function formatar(mascara, documento) {
+            var i = documento.value.length;
+            var saida = mascara.substring(0, 1);
+            var texto = mascara.substring(i);
+
+            if (texto.substring(0, 1) != saida) {
+                documento.value += texto.substring(0, 1);
+            }
+
+        }
+
+        function idade() {
+            var data = document.getElementById("dtnascimento").value;
+            var dia = data.substr(0, 2);
+            var mes = data.substr(3, 2);
+            var ano = data.substr(6, 4);
+            var d = new Date();
+            var ano_atual = d.getFullYear(),
+                mes_atual = d.getMonth() + 1,
+                dia_atual = d.getDate();
+
+            ano = +ano,
+                mes = +mes,
+                dia = +dia;
+
+            var idade = ano_atual - ano;
+
+            if (mes_atual < mes || mes_atual == mes_aniversario && dia_atual < dia) {
+                idade--;
+            }
+            return idade;
+        } 
+    </script>
+
+
+</body>
+</html>

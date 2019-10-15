@@ -2,11 +2,40 @@ h11 {
     color:red;
 }
 
-#logo {
-        width:50%;
-        height:50%;
-}
+/* .container bau {
+    height: 135px;
+    width: 50%;
+    text-align: center;
+    text-align: justify;
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    box-shadow: 1px 1px 8px #000000;
+    background-color: #fffffff0;
+} */
 
 .panel-heading{
     font-size:150%;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;   
+}
+
+.form-horizontal {
+    text-align: center;
+    text-align: justify;
+    position: absolute;
+    left: 36%;
+    top: 25%;
+}
+
+#fieldset {
+    width: 400px;
+    height: 350px;
+    background-color: dimgray;
+    border-radius: 5px 5px 5px 5px ;
+    box-shadow: 1px 1px 8px #000000;
+
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <style>
@@ -79,8 +79,39 @@ input{
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    
+<script>
+  $(document).ready(
+            /* uma função dentro de nosso document ready */
+            function () {
+                /*mask para nosso campo de cpf*/
+                $('input[name="cpf"]').mask("000.000.000-00");
+                /* adicionando funções aos botões */
+                $('input[type="button"]').click(
+                    function () {
+                        /* obtemos a idade */
+                        var idade = $('input[name="idade"]').val();
+                        /* obtemos o nome da pessoa */
+                        var nome = $('input[name="nome"]').val();
+                        /* Comparamos a idade */
+                        if (idade < 18) {
+                            /* Apresentamos a idade */
+                            alert("O formulario não aceita menores de 18 anos.");
+                            /* redirecionamos  */
+                            window.location = "http://www.tirol.com.br/";
+                        } else {
+                            alert("Olá " + nome + " bem vindo a cervejaria");
+                            window.location = "https://www.ambev.com.br";
+                        }
+                    });
+            }
+        );
+</script>
 
-    <script>
+
+
+    <!-- <script>
         function formatar(mascara, documento) {
             var i = documento.value.length;
             var saida = mascara.substring(0, 1);
@@ -113,7 +144,7 @@ input{
             }
             return idade;
         } 
-    </script>
+    </script> -->
 
 
 </body>

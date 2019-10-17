@@ -1,3 +1,8 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/z/money-texture-dollar-bill-27561650.jpg");
+    background-size: cover;    
+}
+
 input, button {
     margin: 5px 0px 5px 0px;
 }
@@ -5,7 +10,11 @@ input, button {
 .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    font-size: 25px;
     text-align: center;
+    color: darkslategray;
+    background-color: blanchedalmond;
+    
 }
 
 

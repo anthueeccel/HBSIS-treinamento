@@ -16,8 +16,20 @@
                 <div class="col-sm-3 form-group">
                     <p><span class="title">Conversor de moedas</span></p>
                     <form>
-                        <input class="form-control" type="number" id="valor1" name="valor1" placeholder="R$">
-                        <input class="form-control" type="number" id="valor2" name="valor2" placeholder="$">
+                        <!-- <input class="form-control" type="number" id="valor1" name="valor1" placeholder="R$"> -->
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">R$</span>
+                                </div>
+                                <input type="text" class="form-control" name="valor1" placeholder="0.00">                                
+                              </div>
+                        <!-- <input class="form-control" type="number" id="valor2" name="valor2" placeholder="$"> -->
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">US$</span>
+                                </div>
+                                <input type="text" class="form-control" name="valor2" placeholder="0.00">                                
+                              </div>
                     </form>
                     <div>
                         <button type="button" class="btn btn-primay" id="calcular" name="calcular">Calcular</button>
@@ -27,13 +39,15 @@
                     </div>
                 </div>
                 <div class="col-sm">
+                        <div id="jsonData"></div>
                 </div>
             </div>
         </div>
-
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
  <script src="js/scripts.js" type="text/javascript"></script>
     
 

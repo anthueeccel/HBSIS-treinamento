@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-caramel-process-324-1541722452.jpg");
+    background-size: cover;
+}
+
+input, button {
+    margin: 5px 0px 5px 0px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: darkslategray;
+    background-color: blanchedalmond;
+    
+}
+
+
+

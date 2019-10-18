@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://www.tokkoro.com/picsup/1488607-bicycle.jpg");
+    background-size: cover;
+}
+
+input, button {
+    margin: 5px 0px 5px 0px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    color: darkslategray;
+    
+}
+
+
+

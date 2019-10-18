@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CurrencyConverter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+        <div class="container">
+            <div class="row" style="margin-top: 16%;">
+                <div class="col-sm">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <p><span class="title">DOGUINHO CARAMELO PETsys</span></p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Nome</span>
+                            </div>
+                            <input type="text" class="form-control" name="nome" placeholder="informe o nome">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Idade</span>
+                            </div>
+                            <input type="text" class="form-control" name="idade" placeholder="informe a idade">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Raça</span>
+                            </div>
+                            <input type="text" class="form-control" name="raca" placeholder="informe a raça">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Coloração</span>
+                            </div>
+                            <input type="text" class="form-control" name="coloracao" placeholder="informe a coloração">
+                        </div>
+                    </form>
+                    <div>
+                        <button  class="btn btn-primay" id="mostrarinfo" name="mostrarinfo">Mostrar Info</button>
+                        <button  class="btn btn-success" id="salvar" name="salvar" data-toggle="modal" data-target="#exampleModal">Salvar</button>
+                    </div>              
+                </div>
+                <div class="col-sm">                   
+                </div>
+            </div>
+        </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Informações atualizadas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <div>
+                    Nome: <span name="modalnome"></span>
+                </div>
+                <div>
+                    Idade: <span name="modalidade"></span>
+                 </div>
+                 <div>
+                     Raça: <span name="modalraca"></span>
+                 </div>
+                 <div>
+                     Coloração: <span name="modalcoloracao"></span>
+                 </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-success">Confirmar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+ <script src="js/scripts.js" type="text/javascript"></script>
+    
+
+</body>
+</html>

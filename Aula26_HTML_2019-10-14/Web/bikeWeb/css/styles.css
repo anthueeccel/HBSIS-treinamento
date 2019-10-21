@@ -1,6 +1,14 @@
-body{
-    background-image: url("https://www.tokkoro.com/picsup/1488607-bicycle.jpg");
+.body{
+    background-image: url("https://s3.amazonaws.com/images.gearjunkie.com/uploads/2019/04/VIATHON_AZ_GRAVEL-1066.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bodyOnSave{
+    background-image: url("https://i2.wp.com/mainlymiles.com/wp-content/uploads/2019/03/F1-Background.jpg?fit=2000%2C1160&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 
 input, button {
@@ -17,4 +25,21 @@ input, button {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .body {
+        background-image: url("../media/bike-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+
+    .title {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+        text-align: center;
+        color: darkslategray;
+        
+    }
+
+  }

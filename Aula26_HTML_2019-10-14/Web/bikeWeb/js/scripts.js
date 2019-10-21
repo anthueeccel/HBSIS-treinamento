@@ -24,20 +24,43 @@ $(document).ready(
         });
 
         $(document).on('keypress', function (e) {
-            if (e.which == 13) {        
+            if (e.which == 13) {
                 $('button[name="salvar"]').click();
             }
-        });        
-
-        // $('button[id="salvar"]').click(function () {
-        //     $('input[name="nome"]').val();
-        //     $('input[name="idade"]').val();
-        //     $('input[name="raca"]').val();
-        //     $('input[name="coloracao"]').val();
-        // });
+        });
 
 
 
+        $('button[name="btnconfirmar"]').click(function () {
+            
+            $("#exampleModal").modal("toggle");
+            $("body").toggleClass("bodyOnSave");               
+
+            function runningLeft() {
+                $("#run").animate({left: "-=300"}, 1500, "swing", runningRight);
+            }
+            
+            var audio = new Audio('./media/f1-sound.mp3');
+            audio.play();
+            setTimeout(alteraBackgroundImg, 4000);
+            LimparTela();
+
+
+            function alteraBackgroundImg() {
+                
+                $("body").toggleClass("bodyOnSave");
+            }       
+            
+            
+        });
 
 
     });
+
+    function LimparTela() {
+        var meusInputs = $('input[type="text"]');
+        meusInputs.val("");
+
+        
+    }
+

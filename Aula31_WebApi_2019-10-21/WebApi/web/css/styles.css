@@ -1,0 +1,18 @@
+body {
+  margin-top: 10vh;
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/56/05/travel-map-background-vector-21205605.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777; 
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}

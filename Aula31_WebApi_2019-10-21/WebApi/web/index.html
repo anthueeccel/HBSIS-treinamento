@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CEP-api</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-md-3"></div>
+        <div class=" w-25 col-md-6 auto">
+            <div class="form-group">
+                <div class="row">
+                    <label class="badge">CEP</label>
+                    <input class="form-control" type="text" name="cep" required>
+                </div>
+                <div class="row">
+                    <input class="btn btn-secundary" type="button" name="mostrar" value="Clique aqui para pesquisar CEP na API da ViaCep" />
+                </div>
+                    <div class="row">
+                        <label class="badge">Cidade</label><br>
+                        <input class="form-control" type="text" name="cidade" placeholder="Digite o CEP">
+                    </div>
+                    <div class="row">
+                        <label class="badge">Bairro</label><br>
+                        <input class="form-control" type="text" name="bairro">
+                    </div>
+                    <div class="row">
+                        <label class="badge">Logradouro</label><br>
+                        <input class="form-control" type="text" name="logradouro">
+                    </div>
+                    <div class="row">
+                        <label class="badge">Complemento</label><br>
+                        <input class="form-control" type="text" name="complemento">
+                    </div>
+                    <div class="row">
+                        <label class="badge">IBGE</label><br>
+                        <input class="form-control" type="text" name="ibge">
+                    </div>
+                    <div class="row">
+                        <label class="badge">UF</label>
+                        <input class="form-control" type="text" name="uf">
+                    </div>
+            </div>
+        </div>
+        <div class="col-md--3"></div>
+    </div>
+    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+        integrity="sha256-yE5LLp5HSQ/z+hJeCqkz9hdjNkk1jaiGG0tDCraumnA=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

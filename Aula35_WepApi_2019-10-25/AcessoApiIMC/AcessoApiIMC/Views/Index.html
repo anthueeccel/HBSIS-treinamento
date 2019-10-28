@@ -6,11 +6,13 @@
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron">
-            <p class="lead"><h2>Cálculo do IMC</h2></p>
+    <div class="container-fluidh-100">
+        <div class="row d-flex align-content-center justify-content-center h-100">
             <div class="row">
                 <form id="formEnviar" name="formEnviar" method="get">
+                    <p class="lead">
+                        <h2>Cálculo do IMC</h2>
+                    </p>
                     <label for="basic-url">Informe seus dados</label>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
@@ -22,28 +24,33 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon3">Altura</span>
                         </div>
-                        <input type="text" class="form-control" name="altura" id="altura" aria-describedby="altura" value="1.84">
+                        <input type="text" class="form-control" name="altura" id="altura" aria-describedby="altura"
+                            value="1.84">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon3">Nome</span>
                         </div>
-                        <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nome" value="Anthue">
+                        <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nome"
+                            value="Anthue">
                     </div>
                 </form>
-                <div class="input-group lg-3">
-                    <div class="row">
-                        <p><input type="button" name="botaoEnviar" class="btn btn-primary" value="Cálculo IMC" /></p>
-                    </div>
-                </div>
+                <pre id="rs"></pre>
                 <div class="input-group mb-3">
+                    <div>
+                        <input type="button" id="botaoEnviar" name="botaoEnviar" class="btn btn-primary" value="IMC Get" />
+                        <input type="button" id="botaoEnviarPost" name="botaoEnviarPost" class="btn btn-secondary"
+                            value="IMC Post" /> </div>
+                </div>
+                <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon3">Seu IMC</span>
                     </div>
-                    <input type="text" class="form-control" name="seuimc" id="seuimc" aria-describedby="seuimc" disabled>
+                    <input type="text" class="form-control" name="meuimc" id="meuimc" aria-describedby="meuimc" readonly>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

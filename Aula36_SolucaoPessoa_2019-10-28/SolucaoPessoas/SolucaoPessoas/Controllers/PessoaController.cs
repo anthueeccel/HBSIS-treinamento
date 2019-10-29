@@ -13,13 +13,11 @@ namespace SolucaoPessoas.Controllers
         List<Pessoa> listaDePessoas = new List<Pessoa>()
         {
         new Pessoa{ Nome="Pessoa 1", Idade = 40 },
-        new Pessoa{ Nome="Pessoa 2", Idade = 20 },
-        new Pessoa{ Nome="Pessoa 3", Idade = 34 },
-        new Pessoa{ Nome="Pessoa 4", Idade = 44 },
-        new Pessoa{ Nome="Pessoa 5", Idade = 43 },
-        new Pessoa{ Nome="Pessoa 6", Idade = 30 },
-        new Pessoa{ Nome="Pessoa 7", Idade = 20 },
-        new Pessoa{ Nome="Pessoa 8", Idade = 23 }
+        new Pessoa{ Nome="A Pessoa 2", Idade = 20 },
+        new Pessoa{ Nome="Seu Pessoa 3", Idade = 34 },
+        new Pessoa{ Nome="Tia Pessoa 4", Idade = 44 },
+        new Pessoa{ Nome="Lady Pessoa 5", Idade = 43 },
+        new Pessoa{ Nome="Dona Pessoa 6", Idade = 63 },
 
         };        
 

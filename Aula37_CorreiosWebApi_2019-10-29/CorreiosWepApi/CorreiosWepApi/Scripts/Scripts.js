@@ -1,0 +1,5 @@
+﻿
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}

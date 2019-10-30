@@ -163,6 +163,10 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\CarroesController.cs" />
+    <Compile Include="Controllers\CustomCarroes.cs" />
+    <Compile Include="Controllers\CustomMarcas.cs" />
+    <Compile Include="Controllers\CustomUsuarios.cs" />
+    <Compile Include="Controllers\CustomVendas.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MarcasController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />

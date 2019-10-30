@@ -12,7 +12,7 @@ using WebApiBancoExistente.Models;
 
 namespace WebApiBancoExistente.Controllers
 {
-    public class VendasController : ApiController
+    public partial class VendasController : ApiController
     {
         private DataBaseContext db = new DataBaseContext();
 

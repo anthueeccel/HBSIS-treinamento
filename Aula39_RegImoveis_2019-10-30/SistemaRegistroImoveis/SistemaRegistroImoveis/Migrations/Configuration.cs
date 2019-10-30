@@ -29,7 +29,7 @@
             });
 
 
-            context.Imovels.AddOrUpdate(new Imovel()
+            context.Imovels.AddOrUpdate(x => new {x.Numero, x.Logradouro, x.Complemento }, new Imovel()
             {
                 Logradouro = "Rua 15 de Novembro",
                 Bairro = "Centro",

@@ -1,0 +1,16 @@
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\ConsoleMigrations.exe.config
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\ConsoleMigrations.exe
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\ConsoleMigrations.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.csprojAssemblyReference.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.exe
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\EntityFramework.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\EntityFramework.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.csproj.CopyComplete
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.Migrations.InitialCreate.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.csproj.GenerateResource.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.Migrations.AddEmailUsuario.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.Migrations.AddControleUsuario.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_Migrations_29-10-30\Migrations\ConsoleMigrations\obj\Debug\ConsoleMigrations.Migrations.AddEnumNivelUsuario.resources

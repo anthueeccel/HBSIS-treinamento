@@ -187,6 +187,7 @@
       <DependentUpon>201910301744223_AddImovelKey.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\CustomValidator.cs" />
     <Compile Include="Models\Imovel.cs" />
     <Compile Include="Models\Proprietario.cs" />
     <Compile Include="Models\ProprietarioContext.cs" />

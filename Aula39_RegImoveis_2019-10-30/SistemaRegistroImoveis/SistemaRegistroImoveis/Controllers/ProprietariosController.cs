@@ -19,7 +19,8 @@ namespace SistemaRegistroImoveis.Controllers
         // GET: api/Proprietarios
         public IQueryable<Proprietario> GetProprietarios()
         {
-            return db.Proprietarios;
+            var novaLista = db.Proprietarios;
+            return novaLista;
         }
 
         // GET: api/Proprietarios/5
@@ -78,7 +79,7 @@ namespace SistemaRegistroImoveis.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            
             db.Proprietarios.Add(proprietario);
             db.SaveChanges();
 

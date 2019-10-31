@@ -11,9 +11,19 @@ namespace SistemaRegistroImoveis.Models
         [Key]
         public int Id { get; set; }
         [StringLength(50)]
+        [CustomValidator("Nome")]
         public string Nome { get; set; }
+        
+        
+        [CustomValidator("DtNascimento")]
         public DateTime DtNascimento { get; set; }
+
+
+
+
         [StringLength(50)]
+        [CustomValidator("Email")]
+        [EmailAddress]
         public string Email { get; set; }
 
     }

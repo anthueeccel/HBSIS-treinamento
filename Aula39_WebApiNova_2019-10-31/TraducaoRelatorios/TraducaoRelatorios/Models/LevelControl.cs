@@ -7,8 +7,8 @@ namespace TraducaoRelatorios.Models
 {
     public enum LevelControl
     {
-        Admin = 0,
-        User = 1,
-        Guest = 2
+        Admin,
+        User,
+        Guest
     }
 }

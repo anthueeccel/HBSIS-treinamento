@@ -19,14 +19,14 @@ namespace TraducaoRelatorios.Controllers
         // GET: api/Carroes
         [HttpGet]
         [Route("{levelControl}/Api/Carros")]
-        public IQueryable<Carro> GetCarros(LevelControl? levelControl)
+        public IQueryable GetCarros(LevelControl? levelControl)
         {
             if (levelControl == LevelControl.Admin)
                 return db.Carros;
             else if(levelControl == LevelControl.User)
                 return db.Carros.ToList().Where(x => x.Ativo == true).AsQueryable();
             else if (levelControl == LevelControl.Guest)
-                return null;
+                return db.Mensagens.ToList().Where(x => (LevelControl)Enum.Parse(typeof(LevelControl), x.Key) == LevelControl.Guest) as IQueryable;
             else
                 return null;
             

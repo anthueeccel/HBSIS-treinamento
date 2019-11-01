@@ -12,10 +12,8 @@ namespace TraducaoRelatorios.Models
     {
         [Key]
         public int Id { get; set; }
+        public string Key { get; set; }
         public string Message { get; set; }
-
-
-        public virtual ICollection<BibliotecaMensagem> Mensagens { get; set; }
 
     }
 }

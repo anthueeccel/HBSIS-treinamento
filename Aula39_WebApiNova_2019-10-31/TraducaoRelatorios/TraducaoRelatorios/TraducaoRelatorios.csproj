@@ -162,6 +162,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BibliotecaMensagensController.cs" />
     <Compile Include="Controllers\CarroesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MarcasController.cs" />
@@ -172,6 +173,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911011327104_TabelaMensagem.cs" />
+    <Compile Include="Migrations\201911011327104_TabelaMensagem.Designer.cs">
+      <DependentUpon>201911011327104_TabelaMensagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911011353444_BibliotecaMensagemAdded.cs" />
+    <Compile Include="Migrations\201911011353444_BibliotecaMensagemAdded.Designer.cs">
+      <DependentUpon>201911011353444_BibliotecaMensagemAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911011423279_BibliotecaMensagemUpdate.cs" />
+    <Compile Include="Migrations\201911011423279_BibliotecaMensagemUpdate.Designer.cs">
+      <DependentUpon>201911011423279_BibliotecaMensagemUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Carro.cs" />
     <Compile Include="Models\ContextDb.cs" />
     <Compile Include="Models\LevelControl.cs" />
@@ -263,6 +277,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201911011327104_TabelaMensagem.resx">
+      <DependentUpon>201911011327104_TabelaMensagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911011353444_BibliotecaMensagemAdded.resx">
+      <DependentUpon>201911011353444_BibliotecaMensagemAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911011423279_BibliotecaMensagemUpdate.resx">
+      <DependentUpon>201911011423279_BibliotecaMensagemUpdate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

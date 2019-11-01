@@ -83,3 +83,7 @@ C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_201
 C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.csproj.CopyComplete
 C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.dll
 C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.pdb
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.Migrations.TabelaMensagem.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.csproj.GenerateResource.cache
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.Migrations.BibliotecaMensagemAdded.resources
+C:\Users\900066\source\repos\anthueeccel\HBSIS-treinamento\Aula39_WebApiNova_2019-10-31\TraducaoRelatorios\TraducaoRelatorios\obj\Debug\TraducaoRelatorios.Migrations.BibliotecaMensagemUpdate.resources

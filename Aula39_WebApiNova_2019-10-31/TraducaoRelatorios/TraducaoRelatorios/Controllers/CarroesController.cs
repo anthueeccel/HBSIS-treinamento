@@ -26,7 +26,7 @@ namespace TraducaoRelatorios.Controllers
             else if(levelControl == LevelControl.User)
                 return db.Carros.ToList().Where(x => x.Ativo == true).AsQueryable();
             else if (levelControl == LevelControl.Guest)
-                return ;
+                return null;
             else
                 return null;
             

@@ -17,9 +17,18 @@ namespace TraducaoRelatorios.Controllers
         private ContextDb db = new ContextDb();
 
         // GET: api/Carroes
-        public IQueryable<Carro> GetCarros()
+        [HttpGet]
+        [Route("{levelControl}/Api/Carros")]
+        public IQueryable<Carro> GetCarros(LevelControl? levelControl)
         {
-            return db.Carros;
+            if (levelControl == LevelControl.Admin)
+                return db.Carros;
+            else if(levelControl == LevelControl.User)
+                return db.Carros.ToList().Where(x => x.Ativo == true).AsQueryable();
+            else if (levelControl == LevelControl.Guest)
+                return ;
+            else
+                return null;
             
         }
 

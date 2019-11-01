@@ -174,7 +174,9 @@
     </Compile>
     <Compile Include="Models\Carro.cs" />
     <Compile Include="Models\ContextDb.cs" />
+    <Compile Include="Models\LevelControl.cs" />
     <Compile Include="Models\Marca.cs" />
+    <Compile Include="Models\Messages.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Models\Venda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

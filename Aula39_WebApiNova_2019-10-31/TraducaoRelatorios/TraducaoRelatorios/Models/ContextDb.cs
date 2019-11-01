@@ -16,6 +16,7 @@ namespace TraducaoRelatorios.Models
         public virtual DbSet<Marca> Marcas { get; set; }
         public virtual DbSet<Usuario> Usuarios { get; set; }
         public virtual DbSet<Venda> Vendas { get; set; }
+        public virtual DbSet<Venda> Messages { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

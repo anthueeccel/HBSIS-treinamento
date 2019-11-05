@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using SeasonFinaleApp.Models;
 
 namespace SeasonFinaleApp.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -26,6 +28,27 @@ namespace SeasonFinaleApp.Controllers
         {
             return await _context.Usuario.ToListAsync();
         }
+
+        // Get: api/Usuarios/Login
+        [HttpGet]
+        [Route("/Login")]
+        public bool Login(Usuario usuario)
+        {
+            if(usuario != null)
+            {            
+                var logedin = _context.Usuario.ToList().Where(x => x.Login == usuario.Login && x.Senha == usuario.Senha);
+                if (logedin.Contains(usuario))
+                    return true;
+                else
+                    return false;
+            }
+            return false;
+
+
+        }
+
+
+
 
         // GET: api/Usuarios/5
         [HttpGet("{id}")]

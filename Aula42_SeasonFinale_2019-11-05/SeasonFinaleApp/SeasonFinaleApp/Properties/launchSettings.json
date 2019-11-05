@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "/Views/index.html",
+      "launchUrl": "Api/Usuarios",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "SeasonFinaleApp": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "/Views/index.html",
+      "launchUrl": "Api/Usuarios",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
